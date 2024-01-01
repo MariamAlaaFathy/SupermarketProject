@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            ownerID = new TextBox();
             Manag_ID = new Label();
-            textBox2 = new TextBox();
+            ownerPassword = new TextBox();
             Manag_Pass = new Label();
             Login = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // ownerID
             // 
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = SystemColors.ScrollBar;
-            textBox1.Location = new Point(278, 93);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(316, 39);
-            textBox1.TabIndex = 5;
-            textBox1.Text = "your id";
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            ownerID.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ownerID.ForeColor = SystemColors.ScrollBar;
+            ownerID.Location = new Point(278, 93);
+            ownerID.Name = "ownerID";
+            ownerID.Size = new Size(316, 39);
+            ownerID.TabIndex = 5;
+            ownerID.Text = "your id";
+            ownerID.TextAlign = HorizontalAlignment.Center;
             // 
             // Manag_ID
             // 
@@ -56,16 +56,16 @@
             Manag_ID.TabIndex = 4;
             Manag_ID.Text = "Employee ID";
             // 
-            // textBox2
+            // ownerPassword
             // 
-            textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = SystemColors.ScrollBar;
-            textBox2.Location = new Point(267, 259);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(327, 39);
-            textBox2.TabIndex = 7;
-            textBox2.Text = "your password";
-            textBox2.TextAlign = HorizontalAlignment.Center;
+            ownerPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ownerPassword.ForeColor = SystemColors.ScrollBar;
+            ownerPassword.Location = new Point(267, 259);
+            ownerPassword.Name = "ownerPassword";
+            ownerPassword.Size = new Size(327, 39);
+            ownerPassword.TabIndex = 7;
+            ownerPassword.Text = "your password";
+            ownerPassword.TextAlign = HorizontalAlignment.Center;
             // 
             // Manag_Pass
             // 
@@ -94,9 +94,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(Login);
-            Controls.Add(textBox2);
+            Controls.Add(ownerPassword);
             Controls.Add(Manag_Pass);
-            Controls.Add(textBox1);
+            Controls.Add(ownerID);
             Controls.Add(Manag_ID);
             Name = "OwnerDesign";
             Text = "OwnerDesign";
@@ -106,9 +106,9 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox ownerID;
         private Label Manag_ID;
-        private TextBox textBox2;
+        private TextBox ownerPassword;
         private Label Manag_Pass;
         private Button Login;
     }

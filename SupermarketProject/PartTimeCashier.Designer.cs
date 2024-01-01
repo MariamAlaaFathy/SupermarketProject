@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            Salary = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
+            numofcustomer = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            textBox3 = new TextBox();
+            hoursworked = new TextBox();
             SuspendLayout();
             // 
-            // textBox1
+            // Salary
             // 
-            textBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = SystemColors.ScrollBar;
-            textBox1.Location = new Point(327, 70);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(278, 31);
-            textBox1.TabIndex = 4;
-            textBox1.Text = "Salay $$";
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            Salary.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Salary.ForeColor = SystemColors.ScrollBar;
+            Salary.Location = new Point(327, 70);
+            Salary.Name = "Salary";
+            Salary.Size = new Size(278, 31);
+            Salary.TabIndex = 4;
+            Salary.Text = "Salay $$";
+            Salary.TextAlign = HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -57,15 +57,15 @@
             label1.TabIndex = 3;
             label1.Text = "Salary";
             // 
-            // textBox2
+            // numofcustomer
             // 
-            textBox2.ForeColor = SystemColors.ScrollBar;
-            textBox2.Location = new Point(327, 224);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(289, 31);
-            textBox2.TabIndex = 6;
-            textBox2.Text = "number of customers";
-            textBox2.TextAlign = HorizontalAlignment.Center;
+            numofcustomer.ForeColor = SystemColors.ScrollBar;
+            numofcustomer.Location = new Point(327, 224);
+            numofcustomer.Name = "numofcustomer";
+            numofcustomer.Size = new Size(289, 31);
+            numofcustomer.TabIndex = 6;
+            numofcustomer.Text = "number of customers";
+            numofcustomer.TextAlign = HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -87,26 +87,26 @@
             label3.TabIndex = 7;
             label3.Text = "hours worked";
             // 
-            // textBox3
+            // hoursworked
             // 
-            textBox3.ForeColor = SystemColors.ScrollBar;
-            textBox3.Location = new Point(327, 353);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(305, 31);
-            textBox3.TabIndex = 8;
-            textBox3.Text = "hours worked";
-            textBox3.TextAlign = HorizontalAlignment.Center;
+            hoursworked.ForeColor = SystemColors.ScrollBar;
+            hoursworked.Location = new Point(327, 353);
+            hoursworked.Name = "hoursworked";
+            hoursworked.Size = new Size(305, 31);
+            hoursworked.TabIndex = 8;
+            hoursworked.Text = "hours worked";
+            hoursworked.TextAlign = HorizontalAlignment.Center;
             // 
             // PartTimeCashier
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox3);
+            Controls.Add(hoursworked);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(numofcustomer);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(Salary);
             Controls.Add(label1);
             Name = "PartTimeCashier";
             Text = "PartTimeCashier";
@@ -116,11 +116,11 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox Salary;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox numofcustomer;
         private Label label2;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox hoursworked;
     }
 }

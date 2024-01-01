@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            rent_amount = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            textBox2 = new TextBox();
+            rent_due = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            will_pay = new TextBox();
+            bills = new TextBox();
             label4 = new Label();
-            textBox5 = new TextBox();
+            gain = new TextBox();
             label5 = new Label();
             label6 = new Label();
-            Login = new Button();
+            rent_left = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // rent_amount
             // 
-            textBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = SystemColors.ScrollBar;
-            textBox1.Location = new Point(247, 57);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(134, 31);
-            textBox1.TabIndex = 4;
-            textBox1.Text = "$$";
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            rent_amount.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rent_amount.ForeColor = SystemColors.ScrollBar;
+            rent_amount.Location = new Point(247, 57);
+            rent_amount.Name = "rent_amount";
+            rent_amount.Size = new Size(134, 31);
+            rent_amount.TabIndex = 4;
+            rent_amount.Text = "$$";
+            rent_amount.TextAlign = HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -73,16 +73,16 @@
             label2.TabIndex = 5;
             label2.Text = "rent due";
             // 
-            // textBox2
+            // rent_due
             // 
-            textBox2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = SystemColors.ScrollBar;
-            textBox2.Location = new Point(207, 203);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(221, 31);
-            textBox2.TabIndex = 6;
-            textBox2.Text = "date";
-            textBox2.TextAlign = HorizontalAlignment.Center;
+            rent_due.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rent_due.ForeColor = SystemColors.ScrollBar;
+            rent_due.Location = new Point(207, 203);
+            rent_due.Name = "rent_due";
+            rent_due.Size = new Size(221, 31);
+            rent_due.TabIndex = 6;
+            rent_due.Text = "date";
+            rent_due.TextAlign = HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -94,27 +94,27 @@
             label3.TabIndex = 7;
             label3.Text = "will pay";
             // 
-            // textBox3
+            // will_pay
             // 
-            textBox3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = SystemColors.ScrollBar;
-            textBox3.Location = new Point(560, 58);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(134, 31);
-            textBox3.TabIndex = 8;
-            textBox3.Text = "$$";
-            textBox3.TextAlign = HorizontalAlignment.Center;
+            will_pay.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            will_pay.ForeColor = SystemColors.ScrollBar;
+            will_pay.Location = new Point(560, 58);
+            will_pay.Name = "will_pay";
+            will_pay.Size = new Size(134, 31);
+            will_pay.TabIndex = 8;
+            will_pay.Text = "$$";
+            will_pay.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox4
+            // bills
             // 
-            textBox4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.ForeColor = SystemColors.ScrollBar;
-            textBox4.Location = new Point(246, 141);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(134, 31);
-            textBox4.TabIndex = 10;
-            textBox4.Text = "$$";
-            textBox4.TextAlign = HorizontalAlignment.Center;
+            bills.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bills.ForeColor = SystemColors.ScrollBar;
+            bills.Location = new Point(246, 141);
+            bills.Name = "bills";
+            bills.Size = new Size(134, 31);
+            bills.TabIndex = 10;
+            bills.Text = "$$";
+            bills.TextAlign = HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -126,16 +126,16 @@
             label4.TabIndex = 9;
             label4.Text = "bills";
             // 
-            // textBox5
+            // gain
             // 
-            textBox5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox5.ForeColor = SystemColors.ScrollBar;
-            textBox5.Location = new Point(247, 280);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(134, 31);
-            textBox5.TabIndex = 12;
-            textBox5.Text = "$$";
-            textBox5.TextAlign = HorizontalAlignment.Center;
+            gain.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            gain.ForeColor = SystemColors.ScrollBar;
+            gain.Location = new Point(247, 280);
+            gain.Name = "gain";
+            gain.Size = new Size(134, 31);
+            gain.TabIndex = 12;
+            gain.Text = "$$";
+            gain.TextAlign = HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -157,33 +157,33 @@
             label6.TabIndex = 13;
             label6.Text = "overall rent left";
             // 
-            // Login
+            // rent_left
             // 
-            Login.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Login.ForeColor = SystemColors.HotTrack;
-            Login.Location = new Point(247, 364);
-            Login.Name = "Login";
-            Login.Size = new Size(185, 46);
-            Login.TabIndex = 14;
-            Login.Text = "calculate";
-            Login.UseVisualStyleBackColor = true;
+            rent_left.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            rent_left.ForeColor = SystemColors.HotTrack;
+            rent_left.Location = new Point(247, 364);
+            rent_left.Name = "rent_left";
+            rent_left.Size = new Size(185, 46);
+            rent_left.TabIndex = 14;
+            rent_left.Text = "calculate";
+            rent_left.UseVisualStyleBackColor = true;
             // 
             // OwnerDetail
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(Login);
+            Controls.Add(rent_left);
             Controls.Add(label6);
-            Controls.Add(textBox5);
+            Controls.Add(gain);
             Controls.Add(label5);
-            Controls.Add(textBox4);
+            Controls.Add(bills);
             Controls.Add(label4);
-            Controls.Add(textBox3);
+            Controls.Add(will_pay);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(rent_due);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(rent_amount);
             Controls.Add(label1);
             Name = "OwnerDetail";
             Text = "OwnerDetail";
@@ -193,17 +193,17 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox rent_amount;
         private Label label1;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox rent_due;
         private Label label3;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox will_pay;
+        private TextBox bills;
         private Label label4;
-        private TextBox textBox5;
+        private TextBox gain;
         private Label label5;
         private Label label6;
-        private Button Login;
+        private Button rent_left;
     }
 }
