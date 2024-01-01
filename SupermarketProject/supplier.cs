@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    public class Supplier
+    class Supplier
     {
         string? name;
         string? typeofproduct;
         int stock;
-        Products product = new Products();
+        Products[]? product;
     }
 }

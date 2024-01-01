@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace SupermarketProject
 {
-    internal class Employee:Person
+    class Employee:Person
     {
         int employeeID;
         double salary;
@@ -71,7 +71,7 @@ namespace SupermarketProject
             job_title = "";
             employee_password = "";
         }
-        public Employee(int emID, double salary, string job_title, string employee_password,int numofemp) : base(name, age, email, phone_number, address)
+        public Employee(string name, int age, string email, string phone_number, string address ,int emID, double salary, string job_title, string employee_password,int numofemp) : base(name, age, email, phone_number, address)
         {
             employeeID = emID;
             this.salary = salary;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    internal class Customer:Person
+    class Customer:Person
     {
         int customerID;
         string password;
