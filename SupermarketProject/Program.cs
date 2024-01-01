@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-string name = "mariam";
-string name1 = "maram";
-
 namespace SupermarketProject
 {
     internal static class Program
