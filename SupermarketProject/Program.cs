@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+string begin = " ";
+
 namespace SupermarketProject
 {
     internal static class Program
