@@ -18,6 +18,7 @@ namespace SupermarketProject
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new OpeningForm());
+            Application.Run(new CustomerForm());
         }
     }
 }
