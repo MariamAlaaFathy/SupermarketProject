@@ -11,5 +11,22 @@ namespace SupermarketProject
         {
 
         }
+
+        private void ManagerButton_Click(object sender, EventArgs e)
+        {
+            ManagerForm managerform = new ManagerForm();
+            managerform.Show();
+            this.Hide();
+        }
+
+        private void CashierButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OwnerButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

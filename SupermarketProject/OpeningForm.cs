@@ -13,5 +13,13 @@ namespace SupermarketProject
             supplierForm.Show();
             this.Hide();
         }
+
+        private void EmployeeButton_Click(object sender, EventArgs e)
+        {
+            
+            EmployeeForm employeeForm = new EmployeeForm();
+            employeeForm.Show();
+            this.Hide();
+        }
     }
 }
