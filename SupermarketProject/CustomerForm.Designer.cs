@@ -86,6 +86,7 @@
             Controls.Add(button1);
             Name = "CustomerForm";
             Text = "Form1";
+            Load += CustomerForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

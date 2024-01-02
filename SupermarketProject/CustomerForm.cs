@@ -11,5 +11,10 @@ namespace SupermarketProject
         {
 
         }
+
+        private void CustomerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
