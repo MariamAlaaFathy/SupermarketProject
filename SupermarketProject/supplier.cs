@@ -13,6 +13,13 @@ namespace SupermarketProject
         int stock;
         public Products[]? product;
 
+        public Supplier(string? name, string? typeofproduct, int stock)
+        {
+            this.name = name;
+            this.typeofproduct = typeofproduct;
+            this.stock = stock;
+        }
+
         public string Name{
             get
             {

@@ -32,7 +32,7 @@
             NameTextBox = new TextBox();
             TypeLabel = new Label();
             StockLabel = new Label();
-            TypeText = new TextBox();
+            TypeTextBox = new TextBox();
             StockTextBox = new TextBox();
             BackButton = new Button();
             DetailsButton = new Button();
@@ -81,15 +81,15 @@
             StockLabel.TabIndex = 3;
             StockLabel.Text = "Stock Of Product";
             // 
-            // TypeText
+            // TypeTextBox
             // 
-            TypeText.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TypeText.ForeColor = SystemColors.ActiveBorder;
-            TypeText.Location = new Point(351, 174);
-            TypeText.Name = "TypeText";
-            TypeText.Size = new Size(391, 38);
-            TypeText.TabIndex = 4;
-            TypeText.Text = "Write your product's type";
+            TypeTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TypeTextBox.ForeColor = SystemColors.ActiveBorder;
+            TypeTextBox.Location = new Point(351, 174);
+            TypeTextBox.Name = "TypeTextBox";
+            TypeTextBox.Size = new Size(391, 38);
+            TypeTextBox.TabIndex = 4;
+            TypeTextBox.Text = "Write your product's type";
             // 
             // StockTextBox
             // 
@@ -133,7 +133,7 @@
             Controls.Add(DetailsButton);
             Controls.Add(BackButton);
             Controls.Add(StockTextBox);
-            Controls.Add(TypeText);
+            Controls.Add(TypeTextBox);
             Controls.Add(StockLabel);
             Controls.Add(TypeLabel);
             Controls.Add(NameTextBox);
@@ -150,7 +150,7 @@
         private TextBox NameTextBox;
         private Label TypeLabel;
         private Label StockLabel;
-        private TextBox TypeText;
+        private TextBox TypeTextBox;
         private TextBox StockTextBox;
         private Button BackButton;
         private Button DetailsButton;

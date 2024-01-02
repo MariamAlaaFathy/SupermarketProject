@@ -16,5 +16,10 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
+
+        private void FBackButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
