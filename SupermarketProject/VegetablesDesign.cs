@@ -21,5 +21,13 @@ namespace SupermarketProject
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ProductForm productForm = new ProductForm();
+            productForm.Show();
+            this.Hide();
+            
+        }
     }
 }

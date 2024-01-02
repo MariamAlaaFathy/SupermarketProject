@@ -19,7 +19,9 @@ namespace SupermarketProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            CustomerForm form = new CustomerForm();
+            form.Show();
+            this.Hide();    
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -65,6 +67,13 @@ namespace SupermarketProject
         private void CustomerSignUp_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Signupcont signupcont = new Signupcont();
+            signupcont.Show();
+            this.Hide();
         }
     }
 }

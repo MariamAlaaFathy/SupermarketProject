@@ -13,7 +13,7 @@ namespace SupermarketProject
         int stock;
         public Products[]? product;
 
-        public string Name{
+        public string? Name{
             get
             {
                 return name;

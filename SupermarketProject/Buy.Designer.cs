@@ -40,7 +40,7 @@
             youramount.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             youramount.ForeColor = SystemColors.ScrollBar;
             youramount.Location = new Point(289, 98);
-            youramount.Margin = new Padding(2, 2, 2, 2);
+            youramount.Margin = new Padding(2);
             youramount.Name = "youramount";
             youramount.Size = new Size(223, 27);
             youramount.TabIndex = 4;
@@ -75,24 +75,26 @@
             yes.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             yes.ForeColor = SystemColors.HotTrack;
             yes.Location = new Point(366, 182);
-            yes.Margin = new Padding(2, 2, 2, 2);
+            yes.Margin = new Padding(2);
             yes.Name = "yes";
             yes.Size = new Size(90, 37);
             yes.TabIndex = 6;
             yes.Text = "Yes";
             yes.UseVisualStyleBackColor = true;
+            yes.Click += yes_Click;
             // 
             // no
             // 
             no.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             no.ForeColor = SystemColors.HotTrack;
             no.Location = new Point(486, 182);
-            no.Margin = new Padding(2, 2, 2, 2);
+            no.Margin = new Padding(2);
             no.Name = "no";
             no.Size = new Size(88, 37);
             no.TabIndex = 7;
             no.Text = "No";
             no.UseVisualStyleBackColor = true;
+            no.Click += no_Click;
             // 
             // Buy
             // 
@@ -104,7 +106,7 @@
             Controls.Add(label2);
             Controls.Add(youramount);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Buy";
             Text = "Buy";
             ResumeLayout(false);
