@@ -54,6 +54,7 @@
             button2.TabIndex = 1;
             button2.Text = "Sign up";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
@@ -86,6 +87,7 @@
             Controls.Add(button1);
             Name = "CustomerForm";
             Text = "Form1";
+            Load += CustomerForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

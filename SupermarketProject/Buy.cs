@@ -21,5 +21,18 @@ namespace SupermarketProject
         {
 
         }
+
+        private void no_Click(object sender, EventArgs e)
+        {
+            ProductForm productForm = new ProductForm();
+            productForm.Show();
+            this.Hide();
+        }
+
+        private void yes_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you for purchasing!","Purchase complete");
+
+        }
     }
 }

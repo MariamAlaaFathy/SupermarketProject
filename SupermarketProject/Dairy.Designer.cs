@@ -251,6 +251,7 @@
             button2.TabIndex = 63;
             button2.Text = "Back";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -289,7 +290,7 @@
             Controls.Add(label3);
             Controls.Add(label5);
             Controls.Add(vegetables);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Dairy";
             Text = "Dairy";
             ResumeLayout(false);

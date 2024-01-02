@@ -32,19 +32,19 @@
             button2 = new Button();
             label1 = new Label();
             label2 = new Label();
-            customerID = new TextBox();
-            textBox1 = new TextBox();
+            Firstname = new TextBox();
+            Lastname = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
+            Email = new TextBox();
             label4 = new Label();
-            textBox3 = new TextBox();
+            Password = new TextBox();
             label5 = new Label();
-            textBox4 = new TextBox();
+            Age = new TextBox();
             label6 = new Label();
             label7 = new Label();
-            textBox5 = new TextBox();
+            Address = new TextBox();
             label8 = new Label();
-            textBox6 = new TextBox();
+            Mobile = new TextBox();
             label9 = new Label();
             SuspendLayout();
             // 
@@ -58,6 +58,7 @@
             button1.TabIndex = 0;
             button1.Text = "Sign Up";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -93,26 +94,26 @@
             label2.Text = "Last Name";
             label2.Click += label2_Click;
             // 
-            // customerID
+            // Firstname
             // 
-            customerID.ForeColor = SystemColors.ActiveBorder;
-            customerID.Location = new Point(348, 102);
-            customerID.Multiline = true;
-            customerID.Name = "customerID";
-            customerID.Size = new Size(239, 37);
-            customerID.TabIndex = 5;
-            customerID.Text = "Your first name";
+            Firstname.ForeColor = SystemColors.ActiveBorder;
+            Firstname.Location = new Point(348, 102);
+            Firstname.Multiline = true;
+            Firstname.Name = "Firstname";
+            Firstname.Size = new Size(239, 37);
+            Firstname.TabIndex = 5;
+            Firstname.Text = "Your first name";
             // 
-            // textBox1
+            // Lastname
             // 
-            textBox1.ForeColor = SystemColors.ActiveBorder;
-            textBox1.Location = new Point(348, 167);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(239, 37);
-            textBox1.TabIndex = 6;
-            textBox1.Text = "Your last name";
-            textBox1.TextChanged += textBox1_TextChanged;
+            Lastname.ForeColor = SystemColors.ActiveBorder;
+            Lastname.Location = new Point(348, 167);
+            Lastname.Multiline = true;
+            Lastname.Name = "Lastname";
+            Lastname.Size = new Size(239, 37);
+            Lastname.TabIndex = 6;
+            Lastname.Text = "Your last name";
+            Lastname.TextChanged += textBox1_TextChanged;
             // 
             // label3
             // 
@@ -125,15 +126,15 @@
             label3.Text = "Email";
             label3.Click += label3_Click;
             // 
-            // textBox2
+            // Email
             // 
-            textBox2.ForeColor = SystemColors.ActiveBorder;
-            textBox2.Location = new Point(348, 220);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(239, 37);
-            textBox2.TabIndex = 8;
-            textBox2.Text = "name@example.com";
+            Email.ForeColor = SystemColors.ActiveBorder;
+            Email.Location = new Point(348, 220);
+            Email.Multiline = true;
+            Email.Name = "Email";
+            Email.Size = new Size(239, 37);
+            Email.TabIndex = 8;
+            Email.Text = "name@example.com";
             // 
             // label4
             // 
@@ -145,16 +146,16 @@
             label4.TabIndex = 9;
             label4.Text = "Password";
             // 
-            // textBox3
+            // Password
             // 
-            textBox3.ForeColor = SystemColors.ActiveBorder;
-            textBox3.Location = new Point(348, 276);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(239, 37);
-            textBox3.TabIndex = 10;
-            textBox3.Text = "Your password";
-            textBox3.TextChanged += textBox3_TextChanged;
+            Password.ForeColor = SystemColors.ActiveBorder;
+            Password.Location = new Point(348, 276);
+            Password.Multiline = true;
+            Password.Name = "Password";
+            Password.Size = new Size(239, 37);
+            Password.TabIndex = 10;
+            Password.Text = "Your password";
+            Password.TextChanged += textBox3_TextChanged;
             // 
             // label5
             // 
@@ -167,15 +168,15 @@
             label5.Text = "Age";
             label5.Click += label5_Click;
             // 
-            // textBox4
+            // Age
             // 
-            textBox4.ForeColor = SystemColors.ActiveBorder;
-            textBox4.Location = new Point(348, 342);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(239, 37);
-            textBox4.TabIndex = 12;
-            textBox4.Text = "Your age";
+            Age.ForeColor = SystemColors.ActiveBorder;
+            Age.Location = new Point(348, 342);
+            Age.Multiline = true;
+            Age.Name = "Age";
+            Age.Size = new Size(239, 37);
+            Age.TabIndex = 12;
+            Age.Text = "Your age";
             // 
             // label6
             // 
@@ -199,15 +200,15 @@
             label7.Text = "Address";
             label7.Click += label7_Click;
             // 
-            // textBox5
+            // Address
             // 
-            textBox5.ForeColor = SystemColors.ActiveBorder;
-            textBox5.Location = new Point(348, 407);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(239, 37);
-            textBox5.TabIndex = 15;
-            textBox5.Text = "ex . 7 Said Zagloul Street";
+            Address.ForeColor = SystemColors.ActiveBorder;
+            Address.Location = new Point(348, 407);
+            Address.Multiline = true;
+            Address.Name = "Address";
+            Address.Size = new Size(239, 37);
+            Address.TabIndex = 15;
+            Address.Text = "ex . 7 Said Zagloul Street";
             // 
             // label8
             // 
@@ -219,15 +220,15 @@
             label8.TabIndex = 16;
             label8.Text = "Mobile No.";
             // 
-            // textBox6
+            // Mobile
             // 
-            textBox6.ForeColor = SystemColors.ActiveBorder;
-            textBox6.Location = new Point(348, 474);
-            textBox6.Multiline = true;
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(239, 37);
-            textBox6.TabIndex = 17;
-            textBox6.Text = "Your mobile number";
+            Mobile.ForeColor = SystemColors.ActiveBorder;
+            Mobile.Location = new Point(348, 474);
+            Mobile.Multiline = true;
+            Mobile.Name = "Mobile";
+            Mobile.Size = new Size(239, 37);
+            Mobile.TabIndex = 17;
+            Mobile.Text = "Your mobile number";
             // 
             // label9
             // 
@@ -246,19 +247,19 @@
             BackColor = SystemColors.Control;
             ClientSize = new Size(800, 635);
             Controls.Add(label9);
-            Controls.Add(textBox6);
+            Controls.Add(Mobile);
             Controls.Add(label8);
-            Controls.Add(textBox5);
+            Controls.Add(Address);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(textBox4);
+            Controls.Add(Age);
             Controls.Add(label5);
-            Controls.Add(textBox3);
+            Controls.Add(Password);
             Controls.Add(label4);
-            Controls.Add(textBox2);
+            Controls.Add(Email);
             Controls.Add(label3);
-            Controls.Add(textBox1);
-            Controls.Add(customerID);
+            Controls.Add(Lastname);
+            Controls.Add(Firstname);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
@@ -276,19 +277,19 @@
         private Button button2;
         private Label label1;
         private Label label2;
-        private TextBox customerID;
-        private TextBox textBox1;
+        private TextBox Firstname;
+        private TextBox Lastname;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox Email;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox Password;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox Age;
         private Label label6;
         private Label label7;
-        private TextBox textBox5;
+        private TextBox Address;
         private Label label8;
-        private TextBox textBox6;
+        private TextBox Mobile;
         private Label label9;
     }
 }
