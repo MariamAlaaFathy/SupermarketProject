@@ -262,6 +262,7 @@
             FBackButton.TabIndex = 21;
             FBackButton.Text = "Back";
             FBackButton.UseVisualStyleBackColor = true;
+            FBackButton.Click += FBackButton_Click;
             // 
             // FDoneButton
             // 

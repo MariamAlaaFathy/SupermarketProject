@@ -30,34 +30,34 @@
         {
             label4 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            Apples = new TextBox();
             label1 = new Label();
             label3 = new Label();
-            textBox2 = new TextBox();
+            Oranges = new TextBox();
             label5 = new Label();
             label6 = new Label();
-            textBox3 = new TextBox();
+            Grapes = new TextBox();
             label7 = new Label();
-            textBox4 = new TextBox();
+            Strawberries = new TextBox();
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
-            textBox5 = new TextBox();
+            Pineapple = new TextBox();
             label11 = new Label();
             label12 = new Label();
-            textBox6 = new TextBox();
+            Guavas = new TextBox();
             label13 = new Label();
             label14 = new Label();
-            textBox7 = new TextBox();
+            Pears = new TextBox();
             label15 = new Label();
             label16 = new Label();
-            textBox8 = new TextBox();
+            Mangoes = new TextBox();
             label17 = new Label();
             label18 = new Label();
             label19 = new Label();
             label20 = new Label();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
+            Banana = new TextBox();
+            Watermelon = new TextBox();
             button1 = new Button();
             button2 = new Button();
             label21 = new Label();
@@ -83,15 +83,15 @@
             label2.TabIndex = 11;
             label2.Text = "Price:  $2";
             // 
-            // textBox1
+            // Apples
             // 
-            textBox1.ForeColor = SystemColors.ActiveBorder;
-            textBox1.Location = new Point(218, 82);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(239, 37);
-            textBox1.TabIndex = 12;
-            textBox1.Text = "Insert the amount ";
+            Apples.ForeColor = SystemColors.ActiveBorder;
+            Apples.Location = new Point(218, 82);
+            Apples.Multiline = true;
+            Apples.Name = "Apples";
+            Apples.Size = new Size(239, 37);
+            Apples.TabIndex = 12;
+            Apples.Text = "Insert the amount ";
             // 
             // label1
             // 
@@ -113,15 +113,15 @@
             label3.TabIndex = 14;
             label3.Text = "Price:  $4";
             // 
-            // textBox2
+            // Oranges
             // 
-            textBox2.ForeColor = SystemColors.ActiveBorder;
-            textBox2.Location = new Point(218, 166);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(239, 37);
-            textBox2.TabIndex = 15;
-            textBox2.Text = "Insert the amount ";
+            Oranges.ForeColor = SystemColors.ActiveBorder;
+            Oranges.Location = new Point(218, 166);
+            Oranges.Multiline = true;
+            Oranges.Name = "Oranges";
+            Oranges.Size = new Size(239, 37);
+            Oranges.TabIndex = 15;
+            Oranges.Text = "Insert the amount ";
             // 
             // label5
             // 
@@ -143,15 +143,15 @@
             label6.TabIndex = 17;
             label6.Text = "Price:  $6";
             // 
-            // textBox3
+            // Grapes
             // 
-            textBox3.ForeColor = SystemColors.ActiveBorder;
-            textBox3.Location = new Point(218, 240);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(239, 37);
-            textBox3.TabIndex = 18;
-            textBox3.Text = "Insert the amount ";
+            Grapes.ForeColor = SystemColors.ActiveBorder;
+            Grapes.Location = new Point(218, 240);
+            Grapes.Multiline = true;
+            Grapes.Name = "Grapes";
+            Grapes.Size = new Size(239, 37);
+            Grapes.TabIndex = 18;
+            Grapes.Text = "Insert the amount ";
             // 
             // label7
             // 
@@ -163,15 +163,15 @@
             label7.TabIndex = 19;
             label7.Text = "Strawberries";
             // 
-            // textBox4
+            // Strawberries
             // 
-            textBox4.ForeColor = SystemColors.ActiveBorder;
-            textBox4.Location = new Point(218, 315);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(239, 37);
-            textBox4.TabIndex = 20;
-            textBox4.Text = "Insert the amount ";
+            Strawberries.ForeColor = SystemColors.ActiveBorder;
+            Strawberries.Location = new Point(218, 315);
+            Strawberries.Multiline = true;
+            Strawberries.Name = "Strawberries";
+            Strawberries.Size = new Size(239, 37);
+            Strawberries.TabIndex = 20;
+            Strawberries.Text = "Insert the amount ";
             // 
             // label8
             // 
@@ -204,15 +204,15 @@
             label10.TabIndex = 23;
             label10.Text = "Price:  $30";
             // 
-            // textBox5
+            // Pineapple
             // 
-            textBox5.ForeColor = SystemColors.ActiveBorder;
-            textBox5.Location = new Point(660, 82);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(239, 37);
-            textBox5.TabIndex = 24;
-            textBox5.Text = "Insert the amount ";
+            Pineapple.ForeColor = SystemColors.ActiveBorder;
+            Pineapple.Location = new Point(660, 82);
+            Pineapple.Multiline = true;
+            Pineapple.Name = "Pineapple";
+            Pineapple.Size = new Size(239, 37);
+            Pineapple.TabIndex = 24;
+            Pineapple.Text = "Insert the amount ";
             // 
             // label11
             // 
@@ -234,15 +234,15 @@
             label12.TabIndex = 26;
             label12.Text = "Price:  $5";
             // 
-            // textBox6
+            // Guavas
             // 
-            textBox6.ForeColor = SystemColors.ActiveBorder;
-            textBox6.Location = new Point(218, 403);
-            textBox6.Multiline = true;
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(239, 37);
-            textBox6.TabIndex = 27;
-            textBox6.Text = "Insert the amount ";
+            Guavas.ForeColor = SystemColors.ActiveBorder;
+            Guavas.Location = new Point(218, 403);
+            Guavas.Multiline = true;
+            Guavas.Name = "Guavas";
+            Guavas.Size = new Size(239, 37);
+            Guavas.TabIndex = 27;
+            Guavas.Text = "Insert the amount ";
             // 
             // label13
             // 
@@ -264,15 +264,15 @@
             label14.TabIndex = 23;
             label14.Text = "Price:  $3";
             // 
-            // textBox7
+            // Pears
             // 
-            textBox7.ForeColor = SystemColors.ActiveBorder;
-            textBox7.Location = new Point(660, 166);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(239, 37);
-            textBox7.TabIndex = 24;
-            textBox7.Text = "Insert the amount ";
+            Pears.ForeColor = SystemColors.ActiveBorder;
+            Pears.Location = new Point(660, 166);
+            Pears.Multiline = true;
+            Pears.Name = "Pears";
+            Pears.Size = new Size(239, 37);
+            Pears.TabIndex = 24;
+            Pears.Text = "Insert the amount ";
             // 
             // label15
             // 
@@ -294,15 +294,15 @@
             label16.TabIndex = 23;
             label16.Text = "Price:  $40";
             // 
-            // textBox8
+            // Mangoes
             // 
-            textBox8.ForeColor = SystemColors.ActiveBorder;
-            textBox8.Location = new Point(660, 240);
-            textBox8.Multiline = true;
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(239, 37);
-            textBox8.TabIndex = 24;
-            textBox8.Text = "Insert the amount ";
+            Mangoes.ForeColor = SystemColors.ActiveBorder;
+            Mangoes.Location = new Point(660, 240);
+            Mangoes.Multiline = true;
+            Mangoes.Name = "Mangoes";
+            Mangoes.Size = new Size(239, 37);
+            Mangoes.TabIndex = 24;
+            Mangoes.Text = "Insert the amount ";
             // 
             // label17
             // 
@@ -344,25 +344,25 @@
             label20.TabIndex = 23;
             label20.Text = "Price:  $40";
             // 
-            // textBox9
+            // Banana
             // 
-            textBox9.ForeColor = SystemColors.ActiveBorder;
-            textBox9.Location = new Point(660, 315);
-            textBox9.Multiline = true;
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(239, 37);
-            textBox9.TabIndex = 24;
-            textBox9.Text = "Insert the amount ";
+            Banana.ForeColor = SystemColors.ActiveBorder;
+            Banana.Location = new Point(660, 315);
+            Banana.Multiline = true;
+            Banana.Name = "Banana";
+            Banana.Size = new Size(239, 37);
+            Banana.TabIndex = 24;
+            Banana.Text = "Insert the amount ";
             // 
-            // textBox10
+            // Watermelon
             // 
-            textBox10.ForeColor = SystemColors.ActiveBorder;
-            textBox10.Location = new Point(660, 403);
-            textBox10.Multiline = true;
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(239, 37);
-            textBox10.TabIndex = 24;
-            textBox10.Text = "Insert the amount ";
+            Watermelon.ForeColor = SystemColors.ActiveBorder;
+            Watermelon.Location = new Point(660, 403);
+            Watermelon.Multiline = true;
+            Watermelon.Name = "Watermelon";
+            Watermelon.Size = new Size(239, 37);
+            Watermelon.TabIndex = 24;
+            Watermelon.Text = "Insert the amount ";
             // 
             // button1
             // 
@@ -385,6 +385,7 @@
             button2.TabIndex = 28;
             button2.Text = "Back";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label21
             // 
@@ -404,14 +405,14 @@
             Controls.Add(label21);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox6);
+            Controls.Add(Guavas);
             Controls.Add(label12);
             Controls.Add(label11);
-            Controls.Add(textBox9);
-            Controls.Add(textBox10);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox5);
+            Controls.Add(Banana);
+            Controls.Add(Watermelon);
+            Controls.Add(Mangoes);
+            Controls.Add(Pears);
+            Controls.Add(Pineapple);
             Controls.Add(label20);
             Controls.Add(label18);
             Controls.Add(label16);
@@ -423,15 +424,15 @@
             Controls.Add(label13);
             Controls.Add(label9);
             Controls.Add(label8);
-            Controls.Add(textBox4);
+            Controls.Add(Strawberries);
             Controls.Add(label7);
-            Controls.Add(textBox3);
+            Controls.Add(Grapes);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(textBox2);
+            Controls.Add(Oranges);
             Controls.Add(label3);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(Apples);
             Controls.Add(label2);
             Controls.Add(label4);
             Name = "Fruits";
@@ -445,34 +446,34 @@
 
         private Label label4;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox Apples;
         private Label label1;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox Oranges;
         private Label label5;
         private Label label6;
-        private TextBox textBox3;
+        private TextBox Grapes;
         private Label label7;
-        private TextBox textBox4;
+        private TextBox Strawberries;
         private Label label8;
         private Label label9;
         private Label label10;
-        private TextBox textBox5;
+        private TextBox Pineapple;
         private Label label11;
         private Label label12;
-        private TextBox textBox6;
+        private TextBox Guavas;
         private Label label13;
         private Label label14;
-        private TextBox textBox7;
+        private TextBox Pears;
         private Label label15;
         private Label label16;
-        private TextBox textBox8;
+        private TextBox Mangoes;
         private Label label17;
         private Label label18;
         private Label label19;
         private Label label20;
-        private TextBox textBox9;
-        private TextBox textBox10;
+        private TextBox Banana;
+        private TextBox Watermelon;
         private Button button1;
         private Button button2;
         private Label label21;

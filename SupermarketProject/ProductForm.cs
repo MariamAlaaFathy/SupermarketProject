@@ -16,5 +16,45 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Fruits fruits = new Fruits();
+            fruits.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            VegetablesDesign design = new VegetablesDesign();
+            design.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DrinksDesign drinkdesign = new DrinksDesign();
+            drinkdesign.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Dairy dairy = new Dairy();
+            dairy.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Buy buy = new Buy();
+            buy.Show();
+            this.Hide();
+        }
+
+        private void ProductForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

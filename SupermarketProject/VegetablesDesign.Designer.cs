@@ -384,6 +384,7 @@
             button2.TabIndex = 61;
             button2.Text = "Back";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -434,7 +435,7 @@
             Controls.Add(label2);
             Controls.Add(Carrots);
             Controls.Add(vegetables);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "VegetablesDesign";
             Text = "Vegetables";
             ResumeLayout(false);

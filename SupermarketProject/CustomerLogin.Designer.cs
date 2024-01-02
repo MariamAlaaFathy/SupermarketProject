@@ -32,7 +32,7 @@
             customerID = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            Password2 = new TextBox();
             label3 = new Label();
             SuspendLayout();
             // 
@@ -79,15 +79,15 @@
             label2.TabIndex = 3;
             label2.Text = "Password";
             // 
-            // textBox1
+            // Password2
             // 
-            textBox1.ForeColor = SystemColors.ActiveBorder;
-            textBox1.Location = new Point(367, 227);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(239, 37);
-            textBox1.TabIndex = 4;
-            textBox1.Text = "your password";
+            Password2.ForeColor = SystemColors.ActiveBorder;
+            Password2.Location = new Point(367, 227);
+            Password2.Multiline = true;
+            Password2.Name = "Password2";
+            Password2.Size = new Size(239, 37);
+            Password2.TabIndex = 4;
+            Password2.Text = "your password";
             // 
             // label3
             // 
@@ -106,7 +106,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label3);
-            Controls.Add(textBox1);
+            Controls.Add(Password2);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(customerID);
@@ -123,7 +123,7 @@
         private TextBox customerID;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox Password2;
         private Label label3;
     }
 }
