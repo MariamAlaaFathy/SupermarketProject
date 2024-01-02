@@ -11,6 +11,33 @@ namespace SupermarketProject
         string? name;
         string? typeofproduct;
         int stock;
-        Products[]? product;
+        public Products[]? product;
+
+        public string Name{
+            get
+            {
+                return name;
+            }
+        }
+
+        public string? TypeOfProduct
+        {
+            get
+            {
+                return typeofproduct;
+            }
+        }
+
+        public int Stock
+        {
+            set
+            {
+                stock = value;
+            }
+            get
+            {
+                return stock;
+            }
+        }
     }
 }

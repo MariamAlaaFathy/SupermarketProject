@@ -40,9 +40,10 @@
             // 
             Salary.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Salary.ForeColor = SystemColors.ScrollBar;
-            Salary.Location = new Point(327, 70);
+            Salary.Location = new Point(262, 57);
+            Salary.Margin = new Padding(2, 2, 2, 2);
             Salary.Name = "Salary";
-            Salary.Size = new Size(278, 31);
+            Salary.Size = new Size(245, 27);
             Salary.TabIndex = 4;
             Salary.Text = "Salay $$";
             Salary.TextAlign = HorizontalAlignment.Center;
@@ -51,18 +52,20 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(75, 69);
+            label1.Location = new Point(95, 56);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(84, 32);
+            label1.Size = new Size(71, 28);
             label1.TabIndex = 3;
             label1.Text = "Salary";
             // 
             // numofcustomer
             // 
             numofcustomer.ForeColor = SystemColors.ScrollBar;
-            numofcustomer.Location = new Point(327, 224);
+            numofcustomer.Location = new Point(262, 179);
+            numofcustomer.Margin = new Padding(2, 2, 2, 2);
             numofcustomer.Name = "numofcustomer";
-            numofcustomer.Size = new Size(289, 31);
+            numofcustomer.Size = new Size(245, 27);
             numofcustomer.TabIndex = 6;
             numofcustomer.Text = "number of customers";
             numofcustomer.TextAlign = HorizontalAlignment.Center;
@@ -71,43 +74,47 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(31, 223);
+            label2.Location = new Point(21, 179);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(260, 32);
+            label2.Size = new Size(223, 28);
             label2.TabIndex = 5;
-            label2.Text = "number of customers";
+            label2.Text = "Number Of Customers";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(47, 353);
+            label3.Location = new Point(56, 281);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(171, 32);
+            label3.Size = new Size(147, 28);
             label3.TabIndex = 7;
-            label3.Text = "hours worked";
+            label3.Text = "Hours Worked";
             // 
             // hoursworked
             // 
             hoursworked.ForeColor = SystemColors.ScrollBar;
-            hoursworked.Location = new Point(327, 353);
+            hoursworked.Location = new Point(262, 282);
+            hoursworked.Margin = new Padding(2, 2, 2, 2);
             hoursworked.Name = "hoursworked";
-            hoursworked.Size = new Size(305, 31);
+            hoursworked.Size = new Size(245, 27);
             hoursworked.TabIndex = 8;
             hoursworked.Text = "hours worked";
             hoursworked.TextAlign = HorizontalAlignment.Center;
             // 
             // PartTimeCashier
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(hoursworked);
             Controls.Add(label3);
             Controls.Add(numofcustomer);
             Controls.Add(label2);
             Controls.Add(Salary);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "PartTimeCashier";
             Text = "PartTimeCashier";
             ResumeLayout(false);

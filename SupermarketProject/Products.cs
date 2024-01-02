@@ -11,5 +11,16 @@ namespace SupermarketProject
         int price;
         string? productname;
         
+        public int Price
+        {
+            set { price = value; }
+            get { return price; }
+        }
+
+        public string? ProductName
+        {
+            set { productname = value; }
+            get { return productname; }
+        }
     }
 }

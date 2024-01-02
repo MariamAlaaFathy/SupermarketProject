@@ -39,9 +39,10 @@
             // 
             youramount.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             youramount.ForeColor = SystemColors.ScrollBar;
-            youramount.Location = new Point(246, 122);
+            youramount.Location = new Point(289, 98);
+            youramount.Margin = new Padding(2, 2, 2, 2);
             youramount.Name = "youramount";
-            youramount.Size = new Size(278, 31);
+            youramount.Size = new Size(223, 27);
             youramount.TabIndex = 4;
             youramount.Text = " $$";
             youramount.TextAlign = HorizontalAlignment.Center;
@@ -50,30 +51,33 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(10, 119);
+            label1.Location = new Point(100, 95);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(184, 32);
+            label1.Size = new Size(159, 28);
             label1.TabIndex = 3;
-            label1.Text = "your amount:$";
+            label1.Text = "Your Amount: $";
             label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(10, 232);
+            label2.Location = new Point(8, 186);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(421, 32);
+            label2.Size = new Size(352, 28);
             label2.TabIndex = 5;
-            label2.Text = "are you sure you want to purchase?";
+            label2.Text = "Are you sure you want to purchase?";
             // 
             // yes
             // 
             yes.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             yes.ForeColor = SystemColors.HotTrack;
-            yes.Location = new Point(457, 227);
+            yes.Location = new Point(366, 182);
+            yes.Margin = new Padding(2, 2, 2, 2);
             yes.Name = "yes";
-            yes.Size = new Size(112, 46);
+            yes.Size = new Size(90, 37);
             yes.TabIndex = 6;
             yes.Text = "Yes";
             yes.UseVisualStyleBackColor = true;
@@ -82,23 +86,25 @@
             // 
             no.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             no.ForeColor = SystemColors.HotTrack;
-            no.Location = new Point(608, 227);
+            no.Location = new Point(486, 182);
+            no.Margin = new Padding(2, 2, 2, 2);
             no.Name = "no";
-            no.Size = new Size(110, 46);
+            no.Size = new Size(88, 37);
             no.TabIndex = 7;
             no.Text = "No";
             no.UseVisualStyleBackColor = true;
             // 
             // Buy
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(614, 293);
             Controls.Add(no);
             Controls.Add(yes);
             Controls.Add(label2);
             Controls.Add(youramount);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Buy";
             Text = "Buy";
             ResumeLayout(false);

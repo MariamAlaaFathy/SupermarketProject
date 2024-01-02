@@ -28,308 +28,308 @@
         /// </summary>
         private void InitializeComponent()
         {
-            FDoneButton = new Button();
-            FBackButton = new Button();
-            textBox9 = new TextBox();
-            textBox8 = new TextBox();
-            textBox7 = new TextBox();
-            textBox6 = new TextBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            ApplesTextBox = new TextBox();
-            WMLabel = new Label();
-            PearsLabel = new Label();
-            GuavasLabel = new Label();
-            BananasLabel = new Label();
-            SBLabel = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            PALabel = new Label();
-            ApplesLabel = new Label();
+            VDoneButton = new Button();
+            VBackButton = new Button();
+            PotatoesTextBox = new TextBox();
+            LemonsTextBox = new TextBox();
+            EggplantsTextBox = new TextBox();
+            CarrotsTextBox = new TextBox();
+            TomatoesTextBox = new TextBox();
+            BroccoliTextBox = new TextBox();
+            CabbagesTextBox = new TextBox();
+            LettuceTextBox = new TextBox();
+            ZucchinisTextBox = new TextBox();
+            CucumbersTextBox = new TextBox();
+            TomatoesLabel = new Label();
+            PotatoesLabel = new Label();
+            BroccoliLabel = new Label();
+            LemonsLabel = new Label();
+            CabbagesLabel = new Label();
+            EggplantsLabel = new Label();
+            ZucchinisLabel = new Label();
+            LettuceLabel = new Label();
+            CarrotsLabel = new Label();
+            CucumbersLabel = new Label();
             SuspendLayout();
             // 
-            // FDoneButton
+            // VDoneButton
             // 
-            FDoneButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            FDoneButton.ForeColor = SystemColors.HotTrack;
-            FDoneButton.Location = new Point(699, 462);
-            FDoneButton.Name = "FDoneButton";
-            FDoneButton.Size = new Size(135, 57);
-            FDoneButton.TabIndex = 44;
-            FDoneButton.Text = "Done";
-            FDoneButton.UseVisualStyleBackColor = true;
+            VDoneButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VDoneButton.ForeColor = SystemColors.HotTrack;
+            VDoneButton.Location = new Point(659, 462);
+            VDoneButton.Name = "VDoneButton";
+            VDoneButton.Size = new Size(135, 57);
+            VDoneButton.TabIndex = 44;
+            VDoneButton.Text = "Done";
+            VDoneButton.UseVisualStyleBackColor = true;
             // 
-            // FBackButton
+            // VBackButton
             // 
-            FBackButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            FBackButton.ForeColor = SystemColors.HotTrack;
-            FBackButton.Location = new Point(351, 462);
-            FBackButton.Name = "FBackButton";
-            FBackButton.Size = new Size(135, 57);
-            FBackButton.TabIndex = 43;
-            FBackButton.Text = "Back";
-            FBackButton.UseVisualStyleBackColor = true;
+            VBackButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VBackButton.ForeColor = SystemColors.HotTrack;
+            VBackButton.Location = new Point(351, 462);
+            VBackButton.Name = "VBackButton";
+            VBackButton.Size = new Size(135, 57);
+            VBackButton.TabIndex = 43;
+            VBackButton.Text = "Back";
+            VBackButton.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // PotatoesTextBox
             // 
-            textBox9.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox9.ForeColor = SystemColors.ActiveBorder;
-            textBox9.Location = new Point(887, 383);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(260, 38);
-            textBox9.TabIndex = 42;
-            textBox9.Text = "Enter your stock";
+            PotatoesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PotatoesTextBox.ForeColor = SystemColors.ActiveBorder;
+            PotatoesTextBox.Location = new Point(832, 383);
+            PotatoesTextBox.Name = "PotatoesTextBox";
+            PotatoesTextBox.Size = new Size(260, 38);
+            PotatoesTextBox.TabIndex = 42;
+            PotatoesTextBox.Text = "Enter your stock";
             // 
-            // textBox8
+            // LemonsTextBox
             // 
-            textBox8.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox8.ForeColor = SystemColors.ActiveBorder;
-            textBox8.Location = new Point(887, 295);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(260, 38);
-            textBox8.TabIndex = 41;
-            textBox8.Text = "Enter your stock";
+            LemonsTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            LemonsTextBox.ForeColor = SystemColors.ActiveBorder;
+            LemonsTextBox.Location = new Point(832, 295);
+            LemonsTextBox.Name = "LemonsTextBox";
+            LemonsTextBox.Size = new Size(260, 38);
+            LemonsTextBox.TabIndex = 41;
+            LemonsTextBox.Text = "Enter your stock";
             // 
-            // textBox7
+            // EggplantsTextBox
             // 
-            textBox7.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox7.ForeColor = SystemColors.ActiveBorder;
-            textBox7.Location = new Point(887, 225);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(260, 38);
-            textBox7.TabIndex = 40;
-            textBox7.Text = "Enter your stock";
+            EggplantsTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            EggplantsTextBox.ForeColor = SystemColors.ActiveBorder;
+            EggplantsTextBox.Location = new Point(832, 149);
+            EggplantsTextBox.Name = "EggplantsTextBox";
+            EggplantsTextBox.Size = new Size(260, 38);
+            EggplantsTextBox.TabIndex = 40;
+            EggplantsTextBox.Text = "Enter your stock";
             // 
-            // textBox6
+            // CarrotsTextBox
             // 
-            textBox6.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox6.ForeColor = SystemColors.ActiveBorder;
-            textBox6.Location = new Point(887, 157);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(260, 38);
-            textBox6.TabIndex = 39;
-            textBox6.Text = "Enter your stock";
+            CarrotsTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            CarrotsTextBox.ForeColor = SystemColors.ActiveBorder;
+            CarrotsTextBox.Location = new Point(832, 69);
+            CarrotsTextBox.Name = "CarrotsTextBox";
+            CarrotsTextBox.Size = new Size(260, 38);
+            CarrotsTextBox.TabIndex = 39;
+            CarrotsTextBox.Text = "Enter your stock";
             // 
-            // textBox5
+            // TomatoesTextBox
             // 
-            textBox5.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox5.ForeColor = SystemColors.ActiveBorder;
-            textBox5.Location = new Point(887, 65);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(260, 38);
-            textBox5.TabIndex = 38;
-            textBox5.Text = "Enter your stock";
+            TomatoesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TomatoesTextBox.ForeColor = SystemColors.ActiveBorder;
+            TomatoesTextBox.Location = new Point(832, 225);
+            TomatoesTextBox.Name = "TomatoesTextBox";
+            TomatoesTextBox.Size = new Size(260, 38);
+            TomatoesTextBox.TabIndex = 38;
+            TomatoesTextBox.Text = "Enter your stock";
             // 
-            // textBox4
+            // BroccoliTextBox
             // 
-            textBox4.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.ForeColor = SystemColors.ActiveBorder;
-            textBox4.Location = new Point(322, 383);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(260, 38);
-            textBox4.TabIndex = 37;
-            textBox4.Text = "Enter your stock";
+            BroccoliTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BroccoliTextBox.ForeColor = SystemColors.ActiveBorder;
+            BroccoliTextBox.Location = new Point(295, 383);
+            BroccoliTextBox.Name = "BroccoliTextBox";
+            BroccoliTextBox.Size = new Size(260, 38);
+            BroccoliTextBox.TabIndex = 37;
+            BroccoliTextBox.Text = "Enter your stock";
             // 
-            // textBox3
+            // CabbagesTextBox
             // 
-            textBox3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = SystemColors.ActiveBorder;
-            textBox3.Location = new Point(322, 309);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(260, 38);
-            textBox3.TabIndex = 36;
-            textBox3.Text = "Enter your stock";
+            CabbagesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            CabbagesTextBox.ForeColor = SystemColors.ActiveBorder;
+            CabbagesTextBox.Location = new Point(295, 309);
+            CabbagesTextBox.Name = "CabbagesTextBox";
+            CabbagesTextBox.Size = new Size(260, 38);
+            CabbagesTextBox.TabIndex = 36;
+            CabbagesTextBox.Text = "Enter your stock";
             // 
-            // textBox2
+            // LettuceTextBox
             // 
-            textBox2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = SystemColors.ActiveBorder;
-            textBox2.Location = new Point(322, 221);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(260, 38);
-            textBox2.TabIndex = 35;
-            textBox2.Text = "Enter your stock";
+            LettuceTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            LettuceTextBox.ForeColor = SystemColors.ActiveBorder;
+            LettuceTextBox.Location = new Point(295, 221);
+            LettuceTextBox.Name = "LettuceTextBox";
+            LettuceTextBox.Size = new Size(260, 38);
+            LettuceTextBox.TabIndex = 35;
+            LettuceTextBox.Text = "Enter your stock";
             // 
-            // textBox1
+            // ZucchinisTextBox
             // 
-            textBox1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = SystemColors.ActiveBorder;
-            textBox1.Location = new Point(322, 145);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(260, 38);
-            textBox1.TabIndex = 34;
-            textBox1.Text = "Enter your stock";
+            ZucchinisTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ZucchinisTextBox.ForeColor = SystemColors.ActiveBorder;
+            ZucchinisTextBox.Location = new Point(295, 145);
+            ZucchinisTextBox.Name = "ZucchinisTextBox";
+            ZucchinisTextBox.Size = new Size(260, 38);
+            ZucchinisTextBox.TabIndex = 34;
+            ZucchinisTextBox.Text = "Enter your stock";
             // 
-            // ApplesTextBox
+            // CucumbersTextBox
             // 
-            ApplesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ApplesTextBox.ForeColor = SystemColors.ActiveBorder;
-            ApplesTextBox.Location = new Point(322, 65);
-            ApplesTextBox.Name = "ApplesTextBox";
-            ApplesTextBox.Size = new Size(260, 38);
-            ApplesTextBox.TabIndex = 33;
-            ApplesTextBox.Text = "Enter your stock";
+            CucumbersTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            CucumbersTextBox.ForeColor = SystemColors.ActiveBorder;
+            CucumbersTextBox.Location = new Point(295, 65);
+            CucumbersTextBox.Name = "CucumbersTextBox";
+            CucumbersTextBox.Size = new Size(260, 38);
+            CucumbersTextBox.TabIndex = 33;
+            CucumbersTextBox.Text = "Enter your stock";
             // 
-            // WMLabel
+            // TomatoesLabel
             // 
-            WMLabel.AutoSize = true;
-            WMLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            WMLabel.Location = new Point(632, 61);
-            WMLabel.Name = "WMLabel";
-            WMLabel.Size = new Size(233, 50);
-            WMLabel.TabIndex = 32;
-            WMLabel.Text = "Watermelons";
+            TomatoesLabel.AutoSize = true;
+            TomatoesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            TomatoesLabel.Location = new Point(611, 221);
+            TomatoesLabel.Name = "TomatoesLabel";
+            TomatoesLabel.Size = new Size(181, 50);
+            TomatoesLabel.TabIndex = 32;
+            TomatoesLabel.Text = "Tomatoes";
             // 
-            // PearsLabel
+            // PotatoesLabel
             // 
-            PearsLabel.AutoSize = true;
-            PearsLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            PearsLabel.Location = new Point(647, 383);
-            PearsLabel.Name = "PearsLabel";
-            PearsLabel.Size = new Size(116, 50);
-            PearsLabel.TabIndex = 31;
-            PearsLabel.Text = "Pears";
+            PotatoesLabel.AutoSize = true;
+            PotatoesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            PotatoesLabel.Location = new Point(611, 379);
+            PotatoesLabel.Name = "PotatoesLabel";
+            PotatoesLabel.Size = new Size(164, 50);
+            PotatoesLabel.TabIndex = 31;
+            PotatoesLabel.Text = "Potatoes";
             // 
-            // GuavasLabel
+            // BroccoliLabel
             // 
-            GuavasLabel.AutoSize = true;
-            GuavasLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            GuavasLabel.Location = new Point(52, 383);
-            GuavasLabel.Name = "GuavasLabel";
-            GuavasLabel.Size = new Size(145, 50);
-            GuavasLabel.TabIndex = 30;
-            GuavasLabel.Text = "Guavas";
+            BroccoliLabel.AutoSize = true;
+            BroccoliLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            BroccoliLabel.Location = new Point(76, 383);
+            BroccoliLabel.Name = "BroccoliLabel";
+            BroccoliLabel.Size = new Size(152, 50);
+            BroccoliLabel.TabIndex = 30;
+            BroccoliLabel.Text = "Broccoli";
             // 
-            // BananasLabel
+            // LemonsLabel
             // 
-            BananasLabel.AutoSize = true;
-            BananasLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            BananasLabel.Location = new Point(637, 291);
-            BananasLabel.Name = "BananasLabel";
-            BananasLabel.Size = new Size(164, 50);
-            BananasLabel.TabIndex = 29;
-            BananasLabel.Text = "Bananas";
+            LemonsLabel.AutoSize = true;
+            LemonsLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            LemonsLabel.Location = new Point(625, 295);
+            LemonsLabel.Name = "LemonsLabel";
+            LemonsLabel.Size = new Size(149, 50);
+            LemonsLabel.TabIndex = 29;
+            LemonsLabel.Text = "Lemons";
             // 
-            // SBLabel
+            // CabbagesLabel
             // 
-            SBLabel.AutoSize = true;
-            SBLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            SBLabel.Location = new Point(52, 305);
-            SBLabel.Name = "SBLabel";
-            SBLabel.Size = new Size(225, 50);
-            SBLabel.TabIndex = 28;
-            SBLabel.Text = "Strawberries";
+            CabbagesLabel.AutoSize = true;
+            CabbagesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            CabbagesLabel.Location = new Point(62, 305);
+            CabbagesLabel.Name = "CabbagesLabel";
+            CabbagesLabel.Size = new Size(186, 50);
+            CabbagesLabel.TabIndex = 28;
+            CabbagesLabel.Text = "Cabbages";
             // 
-            // label4
+            // EggplantsLabel
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label4.Location = new Point(632, 221);
-            label4.Name = "label4";
-            label4.Size = new Size(169, 50);
-            label4.TabIndex = 27;
-            label4.Text = "Mangoes";
+            EggplantsLabel.AutoSize = true;
+            EggplantsLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            EggplantsLabel.Location = new Point(611, 145);
+            EggplantsLabel.Name = "EggplantsLabel";
+            EggplantsLabel.Size = new Size(183, 50);
+            EggplantsLabel.TabIndex = 27;
+            EggplantsLabel.Text = "Eggplants";
             // 
-            // label3
+            // ZucchinisLabel
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label3.Location = new Point(52, 145);
-            label3.Name = "label3";
-            label3.Size = new Size(159, 50);
-            label3.TabIndex = 26;
-            label3.Text = "Oranges";
+            ZucchinisLabel.AutoSize = true;
+            ZucchinisLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            ZucchinisLabel.Location = new Point(62, 145);
+            ZucchinisLabel.Name = "ZucchinisLabel";
+            ZucchinisLabel.Size = new Size(176, 50);
+            ZucchinisLabel.TabIndex = 26;
+            ZucchinisLabel.Text = "Zucchinis";
             // 
-            // label2
+            // LettuceLabel
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label2.Location = new Point(52, 221);
-            label2.Name = "label2";
-            label2.Size = new Size(139, 50);
-            label2.TabIndex = 25;
-            label2.Text = "Grapes";
+            LettuceLabel.AutoSize = true;
+            LettuceLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            LettuceLabel.Location = new Point(76, 221);
+            LettuceLabel.Name = "LettuceLabel";
+            LettuceLabel.Size = new Size(140, 50);
+            LettuceLabel.TabIndex = 25;
+            LettuceLabel.Text = "Lettuce";
             // 
-            // PALabel
+            // CarrotsLabel
             // 
-            PALabel.AutoSize = true;
-            PALabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            PALabel.Location = new Point(632, 145);
-            PALabel.Name = "PALabel";
-            PALabel.Size = new Size(202, 50);
-            PALabel.TabIndex = 24;
-            PALabel.Text = "Pineapples";
+            CarrotsLabel.AutoSize = true;
+            CarrotsLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            CarrotsLabel.Location = new Point(634, 65);
+            CarrotsLabel.Name = "CarrotsLabel";
+            CarrotsLabel.Size = new Size(140, 50);
+            CarrotsLabel.TabIndex = 24;
+            CarrotsLabel.Text = "Carrots";
             // 
-            // ApplesLabel
+            // CucumbersLabel
             // 
-            ApplesLabel.AutoSize = true;
-            ApplesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            ApplesLabel.Location = new Point(52, 61);
-            ApplesLabel.Name = "ApplesLabel";
-            ApplesLabel.Size = new Size(133, 50);
-            ApplesLabel.TabIndex = 23;
-            ApplesLabel.Text = "Apples";
+            CucumbersLabel.AutoSize = true;
+            CucumbersLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            CucumbersLabel.Location = new Point(62, 61);
+            CucumbersLabel.Name = "CucumbersLabel";
+            CucumbersLabel.Size = new Size(205, 50);
+            CucumbersLabel.TabIndex = 23;
+            CucumbersLabel.Text = "Cucumbers";
             // 
             // VegetablesDetailsForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1198, 581);
-            Controls.Add(FDoneButton);
-            Controls.Add(FBackButton);
-            Controls.Add(textBox9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(ApplesTextBox);
-            Controls.Add(WMLabel);
-            Controls.Add(PearsLabel);
-            Controls.Add(GuavasLabel);
-            Controls.Add(BananasLabel);
-            Controls.Add(SBLabel);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(PALabel);
-            Controls.Add(ApplesLabel);
+            ClientSize = new Size(1164, 581);
+            Controls.Add(VDoneButton);
+            Controls.Add(VBackButton);
+            Controls.Add(PotatoesTextBox);
+            Controls.Add(LemonsTextBox);
+            Controls.Add(EggplantsTextBox);
+            Controls.Add(CarrotsTextBox);
+            Controls.Add(TomatoesTextBox);
+            Controls.Add(BroccoliTextBox);
+            Controls.Add(CabbagesTextBox);
+            Controls.Add(LettuceTextBox);
+            Controls.Add(ZucchinisTextBox);
+            Controls.Add(CucumbersTextBox);
+            Controls.Add(TomatoesLabel);
+            Controls.Add(PotatoesLabel);
+            Controls.Add(BroccoliLabel);
+            Controls.Add(LemonsLabel);
+            Controls.Add(CabbagesLabel);
+            Controls.Add(EggplantsLabel);
+            Controls.Add(ZucchinisLabel);
+            Controls.Add(LettuceLabel);
+            Controls.Add(CarrotsLabel);
+            Controls.Add(CucumbersLabel);
             Name = "VegetablesDetailsForm";
-            Text = "VegetablesDetailsForm";
+            Text = "Vegetables";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button FDoneButton;
-        private Button FBackButton;
-        private TextBox textBox9;
-        private TextBox textBox8;
-        private TextBox textBox7;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private TextBox ApplesTextBox;
-        private Label WMLabel;
-        private Label PearsLabel;
-        private Label GuavasLabel;
-        private Label BananasLabel;
-        private Label SBLabel;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label PALabel;
-        private Label ApplesLabel;
+        private Button VDoneButton;
+        private Button VBackButton;
+        private TextBox PotatoesTextBox;
+        private TextBox LemonsTextBox;
+        private TextBox EggplantsTextBox;
+        private TextBox CarrotsTextBox;
+        private TextBox TomatoesTextBox;
+        private TextBox BroccoliTextBox;
+        private TextBox CabbagesTextBox;
+        private TextBox LettuceTextBox;
+        private TextBox ZucchinisTextBox;
+        private TextBox CucumbersTextBox;
+        private Label TomatoesLabel;
+        private Label PotatoesLabel;
+        private Label BroccoliLabel;
+        private Label LemonsLabel;
+        private Label CabbagesLabel;
+        private Label EggplantsLabel;
+        private Label ZucchinisLabel;
+        private Label LettuceLabel;
+        private Label CarrotsLabel;
+        private Label CucumbersLabel;
     }
 }

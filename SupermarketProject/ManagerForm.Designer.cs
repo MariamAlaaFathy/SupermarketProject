@@ -1,6 +1,6 @@
 ﻿namespace SupermarketProject
 {
-    partial class OwnerDesign
+    partial class ManagerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,88 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ownerID = new TextBox();
             Manag_ID = new Label();
-            ownerPassword = new TextBox();
+            managerID = new TextBox();
             Manag_Pass = new Label();
+            ManagerPAssword = new TextBox();
             Login = new Button();
             SuspendLayout();
-            // 
-            // ownerID
-            // 
-            ownerID.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ownerID.ForeColor = SystemColors.ScrollBar;
-            ownerID.Location = new Point(278, 93);
-            ownerID.Name = "ownerID";
-            ownerID.Size = new Size(316, 39);
-            ownerID.TabIndex = 5;
-            ownerID.Text = "your id";
-            ownerID.TextAlign = HorizontalAlignment.Center;
             // 
             // Manag_ID
             // 
             Manag_ID.AutoSize = true;
             Manag_ID.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Manag_ID.Location = new Point(76, 93);
+            Manag_ID.Location = new Point(52, 66);
+            Manag_ID.Margin = new Padding(2, 0, 2, 0);
             Manag_ID.Name = "Manag_ID";
-            Manag_ID.Size = new Size(158, 32);
-            Manag_ID.TabIndex = 4;
+            Manag_ID.Size = new Size(131, 28);
+            Manag_ID.TabIndex = 0;
             Manag_ID.Text = "Employee ID";
             // 
-            // ownerPassword
+            // managerID
             // 
-            ownerPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ownerPassword.ForeColor = SystemColors.ScrollBar;
-            ownerPassword.Location = new Point(267, 259);
-            ownerPassword.Name = "ownerPassword";
-            ownerPassword.Size = new Size(327, 39);
-            ownerPassword.TabIndex = 7;
-            ownerPassword.Text = "your password";
-            ownerPassword.TextAlign = HorizontalAlignment.Center;
+            managerID.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            managerID.ForeColor = SystemColors.ScrollBar;
+            managerID.Location = new Point(206, 66);
+            managerID.Margin = new Padding(2);
+            managerID.Name = "managerID";
+            managerID.Size = new Size(262, 34);
+            managerID.TabIndex = 1;
+            managerID.Text = "your id";
+            managerID.TextAlign = HorizontalAlignment.Center;
             // 
             // Manag_Pass
             // 
             Manag_Pass.AutoSize = true;
             Manag_Pass.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Manag_Pass.Location = new Point(76, 259);
+            Manag_Pass.Location = new Point(71, 184);
+            Manag_Pass.Margin = new Padding(2, 0, 2, 0);
             Manag_Pass.Name = "Manag_Pass";
-            Manag_Pass.Size = new Size(122, 32);
-            Manag_Pass.TabIndex = 6;
+            Manag_Pass.Size = new Size(101, 28);
+            Manag_Pass.TabIndex = 2;
             Manag_Pass.Text = "Password";
+            // 
+            // ManagerPAssword
+            // 
+            ManagerPAssword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ManagerPAssword.ForeColor = SystemColors.ScrollBar;
+            ManagerPAssword.Location = new Point(206, 178);
+            ManagerPAssword.Margin = new Padding(2);
+            ManagerPAssword.Name = "ManagerPAssword";
+            ManagerPAssword.Size = new Size(262, 34);
+            ManagerPAssword.TabIndex = 3;
+            ManagerPAssword.Text = "your password";
+            ManagerPAssword.TextAlign = HorizontalAlignment.Center;
             // 
             // Login
             // 
             Login.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Login.ForeColor = SystemColors.HotTrack;
-            Login.Location = new Point(325, 371);
+            Login.Location = new Point(191, 284);
+            Login.Margin = new Padding(2);
             Login.Name = "Login";
-            Login.Size = new Size(185, 46);
-            Login.TabIndex = 8;
+            Login.Size = new Size(148, 37);
+            Login.TabIndex = 5;
             Login.Text = "Login";
             Login.UseVisualStyleBackColor = true;
             // 
-            // OwnerDesign
+            // ManagerForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(533, 360);
             Controls.Add(Login);
-            Controls.Add(ownerPassword);
+            Controls.Add(ManagerPAssword);
             Controls.Add(Manag_Pass);
-            Controls.Add(ownerID);
+            Controls.Add(managerID);
             Controls.Add(Manag_ID);
-            Name = "OwnerDesign";
-            Text = "OwnerDesign";
+            Margin = new Padding(2);
+            Name = "ManagerForm";
+            Text = "Manager";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox ownerID;
         private Label Manag_ID;
-        private TextBox ownerPassword;
+        private TextBox managerID;
         private Label Manag_Pass;
+        private TextBox ManagerPAssword;
         private Button Login;
     }
 }

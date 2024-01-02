@@ -9,7 +9,7 @@ namespace SupermarketProject
     class Person
     {
         string first_name;
-        string second_name;
+        string last_name;
         int age;
         string address;
         string email;
@@ -17,19 +17,12 @@ namespace SupermarketProject
         public string First_Name {
             get {
                 return first_name; 
-                } 
-            set {
-                first_name = value; 
                 }
         }
-        public string Second_Name
+        public string Last_Name
         {
             get { 
-                return second_name;
-            }
-            set
-            {
-                second_name = value;
+                return last_name;
             }
         }
         public int Age
@@ -75,18 +68,11 @@ namespace SupermarketProject
                 phone_number = value;
             }
         }
-        public Person() {
-            first_name = "";
-            second_name = "";
-            age = 0;
-            email = "";
-            phone_number = "";
-            address = "";
-        } 
-        public Person(string name, int age, string email, string phone_number,string address)
+
+        public Person(string firstname, string lastname, int age, string email, string phone_number,string address)
         {
-            first_name = name; 
-            second_name = name;
+            first_name = firstname; 
+            last_name = lastname;
             this.age = age;
             this.email = email;
             this.phone_number = phone_number;

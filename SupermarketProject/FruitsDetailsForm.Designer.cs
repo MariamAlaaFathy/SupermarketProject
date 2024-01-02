@@ -30,24 +30,24 @@
         {
             ApplesLabel = new Label();
             PALabel = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
+            GrapesLabel = new Label();
+            OrangesLabel = new Label();
+            MangoesLabel = new Label();
             SBLabel = new Label();
             BananasLabel = new Label();
             GuavasLabel = new Label();
             PearsLabel = new Label();
             WMLabel = new Label();
             ApplesTextBox = new TextBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
+            OrangesTextBox = new TextBox();
+            GrapesTextBox = new TextBox();
+            SBTextBox = new TextBox();
+            GuavasTextBox = new TextBox();
+            WMTextBox = new TextBox();
+            PATextBox = new TextBox();
+            MangoesTextBox = new TextBox();
+            BananasTextBox = new TextBox();
+            PearsTextBox = new TextBox();
             FBackButton = new Button();
             FDoneButton = new Button();
             SuspendLayout();
@@ -72,35 +72,35 @@
             PALabel.TabIndex = 1;
             PALabel.Text = "Pineapples";
             // 
-            // label2
+            // GrapesLabel
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label2.Location = new Point(52, 229);
-            label2.Name = "label2";
-            label2.Size = new Size(139, 50);
-            label2.TabIndex = 2;
-            label2.Text = "Grapes";
+            GrapesLabel.AutoSize = true;
+            GrapesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            GrapesLabel.Location = new Point(52, 229);
+            GrapesLabel.Name = "GrapesLabel";
+            GrapesLabel.Size = new Size(139, 50);
+            GrapesLabel.TabIndex = 2;
+            GrapesLabel.Text = "Grapes";
             // 
-            // label3
+            // OrangesLabel
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label3.Location = new Point(52, 153);
-            label3.Name = "label3";
-            label3.Size = new Size(159, 50);
-            label3.TabIndex = 3;
-            label3.Text = "Oranges";
+            OrangesLabel.AutoSize = true;
+            OrangesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            OrangesLabel.Location = new Point(52, 153);
+            OrangesLabel.Name = "OrangesLabel";
+            OrangesLabel.Size = new Size(159, 50);
+            OrangesLabel.TabIndex = 3;
+            OrangesLabel.Text = "Oranges";
             // 
-            // label4
+            // MangoesLabel
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label4.Location = new Point(632, 229);
-            label4.Name = "label4";
-            label4.Size = new Size(169, 50);
-            label4.TabIndex = 4;
-            label4.Text = "Mangoes";
+            MangoesLabel.AutoSize = true;
+            MangoesLabel.Font = new Font("Akhbar MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            MangoesLabel.Location = new Point(632, 229);
+            MangoesLabel.Name = "MangoesLabel";
+            MangoesLabel.Size = new Size(169, 50);
+            MangoesLabel.TabIndex = 4;
+            MangoesLabel.Text = "Mangoes";
             // 
             // SBLabel
             // 
@@ -162,95 +162,95 @@
             ApplesTextBox.TabIndex = 11;
             ApplesTextBox.Text = "Enter your stock";
             // 
-            // textBox1
+            // OrangesTextBox
             // 
-            textBox1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = SystemColors.ActiveBorder;
-            textBox1.Location = new Point(322, 153);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(260, 38);
-            textBox1.TabIndex = 12;
-            textBox1.Text = "Enter your stock";
+            OrangesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrangesTextBox.ForeColor = SystemColors.ActiveBorder;
+            OrangesTextBox.Location = new Point(322, 153);
+            OrangesTextBox.Name = "OrangesTextBox";
+            OrangesTextBox.Size = new Size(260, 38);
+            OrangesTextBox.TabIndex = 12;
+            OrangesTextBox.Text = "Enter your stock";
             // 
-            // textBox2
+            // GrapesTextBox
             // 
-            textBox2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = SystemColors.ActiveBorder;
-            textBox2.Location = new Point(322, 229);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(260, 38);
-            textBox2.TabIndex = 13;
-            textBox2.Text = "Enter your stock";
+            GrapesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            GrapesTextBox.ForeColor = SystemColors.ActiveBorder;
+            GrapesTextBox.Location = new Point(322, 229);
+            GrapesTextBox.Name = "GrapesTextBox";
+            GrapesTextBox.Size = new Size(260, 38);
+            GrapesTextBox.TabIndex = 13;
+            GrapesTextBox.Text = "Enter your stock";
             // 
-            // textBox3
+            // SBTextBox
             // 
-            textBox3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = SystemColors.ActiveBorder;
-            textBox3.Location = new Point(322, 317);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(260, 38);
-            textBox3.TabIndex = 14;
-            textBox3.Text = "Enter your stock";
+            SBTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SBTextBox.ForeColor = SystemColors.ActiveBorder;
+            SBTextBox.Location = new Point(322, 317);
+            SBTextBox.Name = "SBTextBox";
+            SBTextBox.Size = new Size(260, 38);
+            SBTextBox.TabIndex = 14;
+            SBTextBox.Text = "Enter your stock";
             // 
-            // textBox4
+            // GuavasTextBox
             // 
-            textBox4.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.ForeColor = SystemColors.ActiveBorder;
-            textBox4.Location = new Point(322, 391);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(260, 38);
-            textBox4.TabIndex = 15;
-            textBox4.Text = "Enter your stock";
+            GuavasTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            GuavasTextBox.ForeColor = SystemColors.ActiveBorder;
+            GuavasTextBox.Location = new Point(322, 391);
+            GuavasTextBox.Name = "GuavasTextBox";
+            GuavasTextBox.Size = new Size(260, 38);
+            GuavasTextBox.TabIndex = 15;
+            GuavasTextBox.Text = "Enter your stock";
             // 
-            // textBox5
+            // WMTextBox
             // 
-            textBox5.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox5.ForeColor = SystemColors.ActiveBorder;
-            textBox5.Location = new Point(887, 73);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(260, 38);
-            textBox5.TabIndex = 16;
-            textBox5.Text = "Enter your stock";
+            WMTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            WMTextBox.ForeColor = SystemColors.ActiveBorder;
+            WMTextBox.Location = new Point(887, 73);
+            WMTextBox.Name = "WMTextBox";
+            WMTextBox.Size = new Size(260, 38);
+            WMTextBox.TabIndex = 16;
+            WMTextBox.Text = "Enter your stock";
             // 
-            // textBox6
+            // PATextBox
             // 
-            textBox6.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox6.ForeColor = SystemColors.ActiveBorder;
-            textBox6.Location = new Point(887, 165);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(260, 38);
-            textBox6.TabIndex = 17;
-            textBox6.Text = "Enter your stock";
+            PATextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PATextBox.ForeColor = SystemColors.ActiveBorder;
+            PATextBox.Location = new Point(887, 165);
+            PATextBox.Name = "PATextBox";
+            PATextBox.Size = new Size(260, 38);
+            PATextBox.TabIndex = 17;
+            PATextBox.Text = "Enter your stock";
             // 
-            // textBox7
+            // MangoesTextBox
             // 
-            textBox7.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox7.ForeColor = SystemColors.ActiveBorder;
-            textBox7.Location = new Point(887, 233);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(260, 38);
-            textBox7.TabIndex = 18;
-            textBox7.Text = "Enter your stock";
+            MangoesTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            MangoesTextBox.ForeColor = SystemColors.ActiveBorder;
+            MangoesTextBox.Location = new Point(887, 233);
+            MangoesTextBox.Name = "MangoesTextBox";
+            MangoesTextBox.Size = new Size(260, 38);
+            MangoesTextBox.TabIndex = 18;
+            MangoesTextBox.Text = "Enter your stock";
             // 
-            // textBox8
+            // BananasTextBox
             // 
-            textBox8.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox8.ForeColor = SystemColors.ActiveBorder;
-            textBox8.Location = new Point(887, 303);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(260, 38);
-            textBox8.TabIndex = 19;
-            textBox8.Text = "Enter your stock";
+            BananasTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BananasTextBox.ForeColor = SystemColors.ActiveBorder;
+            BananasTextBox.Location = new Point(887, 303);
+            BananasTextBox.Name = "BananasTextBox";
+            BananasTextBox.Size = new Size(260, 38);
+            BananasTextBox.TabIndex = 19;
+            BananasTextBox.Text = "Enter your stock";
             // 
-            // textBox9
+            // PearsTextBox
             // 
-            textBox9.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox9.ForeColor = SystemColors.ActiveBorder;
-            textBox9.Location = new Point(887, 391);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(260, 38);
-            textBox9.TabIndex = 20;
-            textBox9.Text = "Enter your stock";
+            PearsTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PearsTextBox.ForeColor = SystemColors.ActiveBorder;
+            PearsTextBox.Location = new Point(887, 391);
+            PearsTextBox.Name = "PearsTextBox";
+            PearsTextBox.Size = new Size(260, 38);
+            PearsTextBox.TabIndex = 20;
+            PearsTextBox.Text = "Enter your stock";
             // 
             // FBackButton
             // 
@@ -281,28 +281,28 @@
             ClientSize = new Size(1199, 569);
             Controls.Add(FDoneButton);
             Controls.Add(FBackButton);
-            Controls.Add(textBox9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(PearsTextBox);
+            Controls.Add(BananasTextBox);
+            Controls.Add(MangoesTextBox);
+            Controls.Add(PATextBox);
+            Controls.Add(WMTextBox);
+            Controls.Add(GuavasTextBox);
+            Controls.Add(SBTextBox);
+            Controls.Add(GrapesTextBox);
+            Controls.Add(OrangesTextBox);
             Controls.Add(ApplesTextBox);
             Controls.Add(WMLabel);
             Controls.Add(PearsLabel);
             Controls.Add(GuavasLabel);
             Controls.Add(BananasLabel);
             Controls.Add(SBLabel);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
+            Controls.Add(MangoesLabel);
+            Controls.Add(OrangesLabel);
+            Controls.Add(GrapesLabel);
             Controls.Add(PALabel);
             Controls.Add(ApplesLabel);
             Name = "FruitsDetailsForm";
-            Text = "FruitsDetailsForm";
+            Text = "Fruits";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -311,24 +311,24 @@
 
         private Label ApplesLabel;
         private Label PALabel;
-        private Label label2;
-        private Label label3;
-        private Label label4;
+        private Label GrapesLabel;
+        private Label OrangesLabel;
+        private Label MangoesLabel;
         private Label SBLabel;
         private Label BananasLabel;
         private Label GuavasLabel;
         private Label PearsLabel;
         private Label WMLabel;
         private TextBox ApplesTextBox;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
+        private TextBox OrangesTextBox;
+        private TextBox GrapesTextBox;
+        private TextBox SBTextBox;
+        private TextBox GuavasTextBox;
+        private TextBox WMTextBox;
+        private TextBox PATextBox;
+        private TextBox MangoesTextBox;
+        private TextBox BananasTextBox;
+        private TextBox PearsTextBox;
         private Button FBackButton;
         private Button FDoneButton;
     }
