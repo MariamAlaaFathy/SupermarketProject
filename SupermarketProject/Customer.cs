@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    internal class Customer:Person
+    class Customer:Person
     {
-        int customerID;
+        int customerID = 0;
         string password;
         double receipt; 
         public int CustomerID
@@ -16,19 +16,11 @@ namespace SupermarketProject
             get { 
                 return customerID;
             }
-            set
-            {
-                customerID = value;
-            }
         }
         public string Password
         {
             get { 
                 return password; 
-            }
-            set
-            {
-                password = value;
             }
         }
         public double Receipt
@@ -42,16 +34,10 @@ namespace SupermarketProject
                 receipt = value;
             }
         }
-        public Customer() : base() { 
-            CustomerID = 0;
-            password = "";
-            Receipt = 0;
-        }
-        public Customer(int customerID, string password, double receipt, string name, int age, string email, string phone_number,string address) : base( name,  age,  email,  phone_number,address)
+        public Customer(string password, string firstname, string lastname, int age, string email, string phone_number,string address) : base( firstname, lastname, age,  email,  phone_number,address)
         {
             this.password = password;
-            this.receipt = receipt;
-            this.customerID = customerID;
+            customerID++;
             
         }
 

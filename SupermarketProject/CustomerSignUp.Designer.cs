@@ -56,7 +56,7 @@
             button1.Name = "button1";
             button1.Size = new Size(170, 46);
             button1.TabIndex = 0;
-            button1.Text = "Sign up";
+            button1.Text = "Sign Up";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -264,7 +264,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "CustomerSignUp";
-            Text = "CustomerSignUp";
+            Text = "Customer Sign Up";
             Load += CustomerSignUp_Load;
             ResumeLayout(false);
             PerformLayout();

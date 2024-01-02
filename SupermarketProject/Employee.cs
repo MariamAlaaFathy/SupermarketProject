@@ -10,9 +10,9 @@ using System.Xml.Linq;
 
 namespace SupermarketProject
 {
-    internal class Employee:Person
+    class Employee:Person
     {
-        int employeeID;
+        string employeeID;
         double salary;
         string job_title;
         string employee_password;
@@ -24,21 +24,13 @@ namespace SupermarketProject
             {
                 return employee_password;
             }
-            set
-            {
-                employee_password = value;
-            }
         }
 
-        public int EmployeeID
+        public string EmployeeID
         {
             get
             {
                 return employeeID;
-            }
-            set
-            {
-                employeeID = value;
             }
         }
         public string JobTitle
@@ -63,21 +55,13 @@ namespace SupermarketProject
                 salary = value;
             }
         }
-        public Employee():base()
-        {
-            numberOfEmployees ++;
-            employeeID = 0;
-            salary = 0;
-            job_title = "";
-            employee_password = "";
-        }
-        public Employee(int emID, double salary, string job_title, string employee_password,int numofemp) : base(name, age, email, phone_number, address)
+        public Employee(string firstname, string lastname,int age, string email, string phone_number, string address ,string emID, double salary, string job_title, string employee_password) : base(firstname, lastname,age, email, phone_number, address)
         {
             employeeID = emID;
             this.salary = salary;
             this.job_title = job_title;
             this.employee_password = employee_password;
-            numofemp=numberOfEmployees++;
+            numberOfEmployees++;
         }
 
     }

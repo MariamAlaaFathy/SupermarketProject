@@ -1,6 +1,6 @@
 ﻿namespace SupermarketProject
 {
-    partial class FruitsCont
+    partial class Fruits
     {
         /// <summary>
         /// Required designer variable.
@@ -368,7 +368,7 @@
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.HotTrack;
-            button1.Location = new Point(601, 527);
+            button1.Location = new Point(601, 500);
             button1.Name = "button1";
             button1.Size = new Size(135, 46);
             button1.TabIndex = 28;
@@ -379,7 +379,7 @@
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.HotTrack;
-            button2.Location = new Point(267, 527);
+            button2.Location = new Point(267, 500);
             button2.Name = "button2";
             button2.Size = new Size(135, 46);
             button2.TabIndex = 28;
@@ -396,11 +396,11 @@
             label21.TabIndex = 29;
             label21.Text = "Fruits";
             // 
-            // FruitsCont
+            // Fruits
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(981, 676);
+            ClientSize = new Size(981, 602);
             Controls.Add(label21);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -434,8 +434,8 @@
             Controls.Add(Apples);
             Controls.Add(label2);
             Controls.Add(label4);
-            Name = "FruitsCont";
-            Text = "t";
+            Name = "Fruits";
+            Text = "Fruits";
             Load += FruitsCont_Load;
             ResumeLayout(false);
             PerformLayout();

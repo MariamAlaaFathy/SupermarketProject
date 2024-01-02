@@ -6,11 +6,38 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    public class Supplier
+    class Supplier
     {
         string? name;
         string? typeofproduct;
         int stock;
-        Products product = new Products();
+        public Products[]? product;
+
+        public string Name{
+            get
+            {
+                return name;
+            }
+        }
+
+        public string? TypeOfProduct
+        {
+            get
+            {
+                return typeofproduct;
+            }
+        }
+
+        public int Stock
+        {
+            set
+            {
+                stock = value;
+            }
+            get
+            {
+                return stock;
+            }
+        }
     }
 }

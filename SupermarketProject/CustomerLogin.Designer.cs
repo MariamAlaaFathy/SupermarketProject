@@ -62,7 +62,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(253, 133);
+            label1.Location = new Point(254, 134);
             label1.Name = "label1";
             label1.Size = new Size(44, 38);
             label1.TabIndex = 2;
@@ -112,7 +112,7 @@
             Controls.Add(customerID);
             Controls.Add(button1);
             Name = "CustomerLogin";
-            Text = "your Customer ID";
+            Text = "Customer Login";
             ResumeLayout(false);
             PerformLayout();
         }
