@@ -54,6 +54,7 @@
             DDoneButton.TabIndex = 66;
             DDoneButton.Text = "Done";
             DDoneButton.UseVisualStyleBackColor = true;
+            DDoneButton.Click += DDoneButton_Click;
             // 
             // DBackButton
             // 
@@ -65,6 +66,7 @@
             DBackButton.TabIndex = 65;
             DBackButton.Text = "Back";
             DBackButton.UseVisualStyleBackColor = true;
+            DBackButton.Click += DBackButton_Click;
             // 
             // TeaTextBox
             // 

@@ -182,7 +182,6 @@
             label8.Size = new Size(94, 25);
             label8.TabIndex = 21;
             label8.Text = "Price:  $10";
-            label8.Click += label8_Click;
             // 
             // label9
             // 
@@ -437,7 +436,6 @@
             Controls.Add(label4);
             Name = "Fruits";
             Text = "Fruits";
-            Load += FruitsCont_Load;
             ResumeLayout(false);
             PerformLayout();
         }

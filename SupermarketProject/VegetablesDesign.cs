@@ -16,12 +16,6 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             ProductForm productForm = new ProductForm();

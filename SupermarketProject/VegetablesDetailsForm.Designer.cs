@@ -62,6 +62,7 @@
             VDoneButton.TabIndex = 44;
             VDoneButton.Text = "Done";
             VDoneButton.UseVisualStyleBackColor = true;
+            VDoneButton.Click += VDoneButton_Click;
             // 
             // VBackButton
             // 
@@ -73,6 +74,7 @@
             VBackButton.TabIndex = 43;
             VBackButton.Text = "Back";
             VBackButton.UseVisualStyleBackColor = true;
+            VBackButton.Click += VBackButton_Click;
             // 
             // PotatoesTextBox
             // 

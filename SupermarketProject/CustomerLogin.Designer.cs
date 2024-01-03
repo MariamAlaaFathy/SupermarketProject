@@ -34,12 +34,14 @@
             label2 = new Label();
             Password2 = new TextBox();
             label3 = new Label();
+            BackButton = new Button();
             SuspendLayout();
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(322, 330);
+            button1.ForeColor = SystemColors.HotTrack;
+            button1.Location = new Point(449, 328);
             button1.Name = "button1";
             button1.Size = new Size(180, 50);
             button1.TabIndex = 0;
@@ -100,11 +102,24 @@
             label3.Text = "Customer Login";
             label3.Click += label3_Click;
             // 
+            // BackButton
+            // 
+            BackButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BackButton.ForeColor = SystemColors.HotTrack;
+            BackButton.Location = new Point(193, 328);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(180, 50);
+            BackButton.TabIndex = 6;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
             // CustomerLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(BackButton);
             Controls.Add(label3);
             Controls.Add(Password2);
             Controls.Add(label2);
@@ -125,5 +140,6 @@
         private Label label2;
         private TextBox Password2;
         private Label label3;
+        private Button BackButton;
     }
 }

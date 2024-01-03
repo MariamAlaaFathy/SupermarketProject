@@ -10,16 +10,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-
-
-
 namespace SupermarketProject
 {
-
     public partial class ManagerForm : Form
     {
         Manager[] managers = new Manager[3];
-
         public ManagerForm()
         {
             InitializeComponent();
@@ -28,16 +23,10 @@ namespace SupermarketProject
             managers[2] = new Manager("khaled", "hamed", 24, "khaledhamed@gmail.com", "01157893526", "kafrabdo", "3", 200, "owner", "khela1234");
 
         }
-
-        private void managerID_TextChanged(object sender, EventArgs e)
-        {
-            string ID = managerID.Text;
-        }
-
         private void Login_Click(object sender, EventArgs e)
         {
             string enteredID = managerID.Text;
-            string enteredPassword = Manag_Pass.Text;
+            string enteredPassword = ManagerPassword.Text;
 
             for (int i = 0; i < 3; i++)
             {
@@ -45,26 +34,23 @@ namespace SupermarketProject
                 {
                     // Successfully logged in, you can perform actions here.
                     MessageBox.Show("Login successful!");
+                    ManagerDetail managerform = new ManagerDetail();
+                    managerform.Show();
+                    this.Hide();
                     return;
                 }
             }
 
             // If the loop completes without finding a match, login failed.
             MessageBox.Show("Invalid credentials. Please try again.");
-            managerID.Clear();
-            Manag_Pass.Text = "";
-
 
         }
 
-        private void Manag_Pass_Click(object sender, EventArgs e)
+        private void BackButton_Click(object sender, EventArgs e)
         {
-            string Password = Manag_Pass.Text;
-        }
-
-        private void Manag_ID_Click(object sender, EventArgs e)
-        {
-
+            EmployeeForm employeeform = new EmployeeForm();
+            employeeform.Show();
+            this.Hide();
         }
     }
 }

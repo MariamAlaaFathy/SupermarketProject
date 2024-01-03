@@ -58,6 +58,7 @@
             NameTextBox.Size = new Size(391, 38);
             NameTextBox.TabIndex = 1;
             NameTextBox.Text = "Type your company's name";
+            NameTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // TypeLabel
             // 
@@ -90,6 +91,7 @@
             TypeTextBox.Size = new Size(391, 38);
             TypeTextBox.TabIndex = 4;
             TypeTextBox.Text = "Write your product's type";
+            TypeTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // StockTextBox
             // 
@@ -100,6 +102,7 @@
             StockTextBox.Size = new Size(391, 38);
             StockTextBox.TabIndex = 5;
             StockTextBox.Text = "Write how much is in stock";
+            StockTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // BackButton
             // 

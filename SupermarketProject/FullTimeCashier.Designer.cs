@@ -61,7 +61,7 @@
             Salary.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Salary.ForeColor = SystemColors.ScrollBar;
             Salary.Location = new Point(302, 95);
-            Salary.Margin = new Padding(2, 2, 2, 2);
+            Salary.Margin = new Padding(2);
             Salary.Name = "Salary";
             Salary.Size = new Size(223, 27);
             Salary.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             numofcustomers.ForeColor = SystemColors.ScrollBar;
             numofcustomers.Location = new Point(302, 234);
-            numofcustomers.Margin = new Padding(2, 2, 2, 2);
+            numofcustomers.Margin = new Padding(2);
             numofcustomers.Name = "numofcustomers";
             numofcustomers.Size = new Size(232, 27);
             numofcustomers.TabIndex = 3;
@@ -83,12 +83,12 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(640, 381);
             Controls.Add(numofcustomers);
             Controls.Add(Salary);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "FullTimeCashier";
             Text = "Cashier";
             ResumeLayout(false);

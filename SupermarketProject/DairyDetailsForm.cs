@@ -16,5 +16,19 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
+
+        private void D2BackButton_Click(object sender, EventArgs e)
+        {
+            SupplierForm supplierForm = new SupplierForm();
+            supplierForm.Show();
+            this.Hide();
+        }
+
+        private void D2DoneButton_Click(object sender, EventArgs e)
+        {
+            OpeningForm openingForm = new OpeningForm();
+            openingForm.Show();
+            this.Hide();
+        }
     }
 }

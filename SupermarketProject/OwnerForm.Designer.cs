@@ -1,6 +1,6 @@
 ﻿namespace SupermarketProject
 {
-    partial class OwnerDesign
+    partial class OwnerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,7 @@
             ownerPassword = new TextBox();
             Manag_Pass = new Label();
             Login = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // ownerID
@@ -85,26 +86,41 @@
             // 
             Login.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Login.ForeColor = SystemColors.HotTrack;
-            Login.Location = new Point(234, 296);
+            Login.Location = new Point(316, 293);
             Login.Margin = new Padding(2);
             Login.Name = "Login";
             Login.Size = new Size(148, 37);
             Login.TabIndex = 8;
             Login.Text = "Login";
             Login.UseVisualStyleBackColor = true;
+            Login.Click += Login_Click;
             // 
-            // OwnerDesign
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.HotTrack;
+            button1.Location = new Point(79, 293);
+            button1.Margin = new Padding(2);
+            button1.Name = "button1";
+            button1.Size = new Size(148, 37);
+            button1.TabIndex = 9;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // OwnerForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(555, 360);
+            Controls.Add(button1);
             Controls.Add(Login);
             Controls.Add(ownerPassword);
             Controls.Add(Manag_Pass);
             Controls.Add(ownerID);
             Controls.Add(Manag_ID);
             Margin = new Padding(2);
-            Name = "OwnerDesign";
+            Name = "OwnerForm";
             Text = "Owner";
             ResumeLayout(false);
             PerformLayout();
@@ -117,5 +133,6 @@
         private TextBox ownerPassword;
         private Label Manag_Pass;
         private Button Login;
+        private Button button1;
     }
 }

@@ -15,6 +15,8 @@ namespace SupermarketProject
     {
 
         Supplier[] suppliers = new Supplier[4];
+        public static int index;
+        public static string newstock;
         public SupplierForm()
         {
             suppliers[0] = new Supplier("Orchard Delights", "Fruits", 1000);
@@ -42,19 +44,18 @@ namespace SupermarketProject
             {
                 if(NameTextBox.Text == suppliers[i].Name && TypeTextBox.Text == suppliers[i].TypeOfProduct)
                 {
+                    index = i;
+                    newstock = StockTextBox.Text;
                     switch (suppliers[i].TypeOfProduct)
                     {
-                        case "Fruits": fruits.Show(); this.Hide(); break;
-                        case "Vegetables": vegetables.Show(); this.Hide(); break;
-                        case "Drinks": drinks.Show(); this.Hide(); break;
-                        case "Dairy": dairy.Show(); this.Hide(); break;
+                        case "Fruits": fruits.Show(); this.Hide(); return;
+                        case "Vegetables": vegetables.Show(); this.Hide(); return;
+                        case "Drinks": drinks.Show(); this.Hide(); return;
+                        case "Dairy": dairy.Show(); this.Hide(); return;
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Wrong Company Name or Type of Product.");
-                }
             }
+            MessageBox.Show("Wrong Company Name or Type of Product.");
         }
     }
 }

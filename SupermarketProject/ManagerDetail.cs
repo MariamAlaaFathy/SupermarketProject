@@ -16,5 +16,12 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            ManagerForm managerForm = new ManagerForm();
+            managerForm.Show();
+            this.Hide();
+        }
     }
 }

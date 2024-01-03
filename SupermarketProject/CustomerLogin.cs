@@ -38,5 +38,12 @@ namespace SupermarketProject
         {
 
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
+            this.Hide();
+        }
     }
 }
