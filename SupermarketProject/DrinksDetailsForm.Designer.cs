@@ -1,6 +1,6 @@
 ﻿namespace SupermarketProject
 {
-    partial class DrinksDetatilsForm
+    partial class DrinksDetailsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -106,7 +106,7 @@
             JuiceTextBox.Name = "JuiceTextBox";
             JuiceTextBox.Size = new Size(260, 38);
             JuiceTextBox.TabIndex = 57;
-            JuiceTextBox.Text = "Enter your stock";
+            JuiceTextBox.Text = "Enter Your Stock";
             // 
             // SWTextBox
             // 

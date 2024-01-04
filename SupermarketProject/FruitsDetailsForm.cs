@@ -33,35 +33,45 @@ namespace SupermarketProject
 
         private void FDoneButton_Click(object sender, EventArgs e)
         {
-            fruitsStock = [ApplesTextBox.Text, OrangesTextBox.Text, GrapesTextBox.Text, SBTextBox.Text, GuavasTextBox.Text, WMTextBox.Text, PATextBox.Text, MangoesTextBox.Text, BananasTextBox.Text, PearsTextBox.Text];
-            int totalstock = 0;
-            for(int i = 0; i < 10; i++)
+            try
             {
-                totalstock += Convert.ToInt32(fruitsStock[i]);
-            }
-            if(totalstock == suppliers[SupplierForm.index].Stock) {
-
-                MessageBox.Show("Stock is Saved!");
-                OpeningForm openingForm = new OpeningForm();
-                openingForm.Show();
-                this.Hide();
-            } else
-            {
-                
-                if(MessageBox.Show("This stock is not equal to the original stock.\nDo you want to change the stock?", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                fruitsStock = [ApplesTextBox.Text, OrangesTextBox.Text, GrapesTextBox.Text, SBTextBox.Text, GuavasTextBox.Text, WMTextBox.Text, PATextBox.Text, MangoesTextBox.Text, BananasTextBox.Text, PearsTextBox.Text];
+                int totalstock = 0;
+                for (int i = 0; i < 10; i++)
                 {
-                    suppliers[SupplierForm.index].Stock = totalstock;
+                    totalstock += Convert.ToInt32(fruitsStock[i]);
+                }
+                if (totalstock == suppliers[SupplierForm.index].Stock)
+                {
+
                     MessageBox.Show("Stock is Saved!");
                     OpeningForm openingForm = new OpeningForm();
                     openingForm.Show();
                     this.Hide();
-                } else
-                {
-                    MessageBox.Show("Stock was not Changed.");
-                    OpeningForm openingForm = new OpeningForm();
-                    openingForm.Show();
-                    this.Hide();
                 }
+                else
+                {
+
+                    if (MessageBox.Show("This stock is not equal to the original stock.\nDo you want to change the stock?", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        suppliers[SupplierForm.index].Stock = totalstock;
+                        MessageBox.Show("Stock is Saved!");
+                        OpeningForm openingForm = new OpeningForm();
+                        openingForm.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Stock was not Changed.");
+                        OpeningForm openingForm = new OpeningForm();
+                        openingForm.Show();
+                        this.Hide();
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Invalid Input");
             }
         }
     }

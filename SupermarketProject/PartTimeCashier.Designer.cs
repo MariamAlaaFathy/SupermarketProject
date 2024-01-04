@@ -34,6 +34,8 @@
             label2 = new Label();
             label3 = new Label();
             hoursworked = new TextBox();
+            DoneButton = new Button();
+            BackButton = new Button();
             SuspendLayout();
             // 
             // Salary
@@ -41,7 +43,7 @@
             Salary.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Salary.ForeColor = SystemColors.ScrollBar;
             Salary.Location = new Point(262, 57);
-            Salary.Margin = new Padding(2, 2, 2, 2);
+            Salary.Margin = new Padding(2);
             Salary.Name = "Salary";
             Salary.Size = new Size(245, 27);
             Salary.TabIndex = 4;
@@ -63,7 +65,7 @@
             // 
             numofcustomer.ForeColor = SystemColors.ScrollBar;
             numofcustomer.Location = new Point(262, 179);
-            numofcustomer.Margin = new Padding(2, 2, 2, 2);
+            numofcustomer.Margin = new Padding(2);
             numofcustomer.Name = "numofcustomer";
             numofcustomer.Size = new Size(245, 27);
             numofcustomer.TabIndex = 6;
@@ -96,25 +98,51 @@
             // 
             hoursworked.ForeColor = SystemColors.ScrollBar;
             hoursworked.Location = new Point(262, 282);
-            hoursworked.Margin = new Padding(2, 2, 2, 2);
+            hoursworked.Margin = new Padding(2);
             hoursworked.Name = "hoursworked";
             hoursworked.Size = new Size(245, 27);
             hoursworked.TabIndex = 8;
             hoursworked.Text = "hours worked";
             hoursworked.TextAlign = HorizontalAlignment.Center;
             // 
+            // DoneButton
+            // 
+            DoneButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DoneButton.ForeColor = SystemColors.HotTrack;
+            DoneButton.Location = new Point(317, 346);
+            DoneButton.Name = "DoneButton";
+            DoneButton.Size = new Size(135, 57);
+            DoneButton.TabIndex = 26;
+            DoneButton.Text = "Done";
+            DoneButton.UseVisualStyleBackColor = true;
+            DoneButton.Click += DoneButton_Click;
+            // 
+            // BackButton
+            // 
+            BackButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BackButton.ForeColor = SystemColors.HotTrack;
+            BackButton.Location = new Point(93, 345);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(135, 57);
+            BackButton.TabIndex = 25;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
             // PartTimeCashier
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(565, 429);
+            Controls.Add(DoneButton);
+            Controls.Add(BackButton);
             Controls.Add(hoursworked);
             Controls.Add(label3);
             Controls.Add(numofcustomer);
             Controls.Add(label2);
             Controls.Add(Salary);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "PartTimeCashier";
             Text = "PartTimeCashier";
             ResumeLayout(false);
@@ -129,5 +157,7 @@
         private Label label2;
         private Label label3;
         private TextBox hoursworked;
+        private Button DoneButton;
+        private Button BackButton;
     }
 }

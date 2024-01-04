@@ -37,7 +37,7 @@ namespace SupermarketProject
         {
             FruitsDetailsForm fruits = new FruitsDetailsForm();
             VegetablesDetailsForm vegetables = new VegetablesDetailsForm();
-            DrinksDetatilsForm drinks = new DrinksDetatilsForm();
+            DrinksDetailsForm drinks = new DrinksDetailsForm();
             DairyDetailsForm dairy = new DairyDetailsForm();
 
             for(int i = 0; i < 4; i++)
