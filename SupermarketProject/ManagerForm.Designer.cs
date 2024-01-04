@@ -83,6 +83,7 @@
             ManagerPAssword.TabIndex = 3;
             ManagerPAssword.Text = "your password";
             ManagerPAssword.TextAlign = HorizontalAlignment.Center;
+            ManagerPAssword.TextChanged += ManagerPAssword_TextChanged;
             // 
             // Login
             // 

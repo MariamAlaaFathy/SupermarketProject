@@ -37,7 +37,7 @@ namespace SupermarketProject
         private void Login_Click(object sender, EventArgs e)
         {
             string enteredID = managerID.Text;
-            string enteredPassword = Manag_Pass.Text;
+            string enteredPassword = ManagerPAssword.Text;
 
             for (int i = 0; i < 3; i++)
             {
@@ -52,19 +52,24 @@ namespace SupermarketProject
             // If the loop completes without finding a match, login failed.
             MessageBox.Show("Invalid credentials. Please try again.");
             managerID.Clear();
-            Manag_Pass.Text = "";
+            ManagerPAssword.Text = "";
 
 
         }
 
         private void Manag_Pass_Click(object sender, EventArgs e)
         {
-            string Password = Manag_Pass.Text;
+            
         }
 
         private void Manag_ID_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ManagerPAssword_TextChanged(object sender, EventArgs e)
+        {
+            string Password = ManagerPAssword.Text;
         }
     }
 }
