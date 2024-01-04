@@ -16,17 +16,6 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FruitsCont_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             ProductForm productForm = new ProductForm();

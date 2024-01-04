@@ -32,13 +32,15 @@
             label2 = new Label();
             Salary = new TextBox();
             numofcustomers = new TextBox();
+            DoneButton = new Button();
+            BackButton = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(111, 95);
+            label1.Location = new Point(121, 82);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(71, 28);
@@ -49,7 +51,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(50, 233);
+            label2.Location = new Point(60, 220);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(223, 28);
@@ -60,8 +62,8 @@
             // 
             Salary.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Salary.ForeColor = SystemColors.ScrollBar;
-            Salary.Location = new Point(302, 95);
-            Salary.Margin = new Padding(2, 2, 2, 2);
+            Salary.Location = new Point(312, 82);
+            Salary.Margin = new Padding(2);
             Salary.Name = "Salary";
             Salary.Size = new Size(223, 27);
             Salary.TabIndex = 2;
@@ -71,24 +73,50 @@
             // numofcustomers
             // 
             numofcustomers.ForeColor = SystemColors.ScrollBar;
-            numofcustomers.Location = new Point(302, 234);
-            numofcustomers.Margin = new Padding(2, 2, 2, 2);
+            numofcustomers.Location = new Point(312, 221);
+            numofcustomers.Margin = new Padding(2);
             numofcustomers.Name = "numofcustomers";
             numofcustomers.Size = new Size(232, 27);
             numofcustomers.TabIndex = 3;
             numofcustomers.Text = "number of customers";
             numofcustomers.TextAlign = HorizontalAlignment.Center;
             // 
+            // DoneButton
+            // 
+            DoneButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DoneButton.ForeColor = SystemColors.HotTrack;
+            DoneButton.Location = new Point(347, 295);
+            DoneButton.Name = "DoneButton";
+            DoneButton.Size = new Size(135, 57);
+            DoneButton.TabIndex = 24;
+            DoneButton.Text = "Done";
+            DoneButton.UseVisualStyleBackColor = true;
+            DoneButton.Click += DoneButton_Click;
+            // 
+            // BackButton
+            // 
+            BackButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BackButton.ForeColor = SystemColors.HotTrack;
+            BackButton.Location = new Point(121, 295);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(135, 57);
+            BackButton.TabIndex = 23;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
             // FullTimeCashier
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(640, 381);
+            Controls.Add(DoneButton);
+            Controls.Add(BackButton);
             Controls.Add(numofcustomers);
             Controls.Add(Salary);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "FullTimeCashier";
             Text = "Cashier";
             ResumeLayout(false);
@@ -101,5 +129,7 @@
         private Label label2;
         private TextBox Salary;
         private TextBox numofcustomers;
+        private Button DoneButton;
+        private Button BackButton;
     }
 }

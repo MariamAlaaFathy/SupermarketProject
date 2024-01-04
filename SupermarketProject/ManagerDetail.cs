@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace SupermarketProject
 {
-    public partial class DrinksDetatilsForm : Form
+    public partial class ManagerDetail : Form
     {
-        public DrinksDetatilsForm()
+        public ManagerDetail()
         {
             InitializeComponent();
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            ManagerForm managerForm = new ManagerForm();
+            managerForm.Show();
+            this.Hide();
         }
     }
 }

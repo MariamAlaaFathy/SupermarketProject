@@ -1,6 +1,6 @@
 ﻿namespace SupermarketProject
 {
-    partial class DrinksDetatilsForm
+    partial class DrinksDetailsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -54,6 +54,7 @@
             DDoneButton.TabIndex = 66;
             DDoneButton.Text = "Done";
             DDoneButton.UseVisualStyleBackColor = true;
+            DDoneButton.Click += DDoneButton_Click;
             // 
             // DBackButton
             // 
@@ -65,6 +66,7 @@
             DBackButton.TabIndex = 65;
             DBackButton.Text = "Back";
             DBackButton.UseVisualStyleBackColor = true;
+            DBackButton.Click += DBackButton_Click;
             // 
             // TeaTextBox
             // 
@@ -104,7 +106,7 @@
             JuiceTextBox.Name = "JuiceTextBox";
             JuiceTextBox.Size = new Size(260, 38);
             JuiceTextBox.TabIndex = 57;
-            JuiceTextBox.Text = "Enter your stock";
+            JuiceTextBox.Text = "Enter Your Stock";
             // 
             // SWTextBox
             // 

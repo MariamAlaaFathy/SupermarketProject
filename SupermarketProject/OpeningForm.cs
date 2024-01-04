@@ -14,9 +14,16 @@ namespace SupermarketProject
             this.Hide();
         }
 
+        private void CustomerButton_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
+            this.Hide();
+        }
+
         private void EmployeeButton_Click(object sender, EventArgs e)
         {
-            
+
             EmployeeForm employeeForm = new EmployeeForm();
             employeeForm.Show();
             this.Hide();

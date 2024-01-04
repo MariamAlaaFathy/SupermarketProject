@@ -53,7 +53,7 @@
             // 
             numofemployees.ForeColor = SystemColors.ScrollBar;
             numofemployees.Location = new Point(266, 50);
-            numofemployees.Margin = new Padding(2, 2, 2, 2);
+            numofemployees.Margin = new Padding(2);
             numofemployees.Name = "numofemployees";
             numofemployees.Size = new Size(203, 27);
             numofemployees.TabIndex = 1;
@@ -76,7 +76,7 @@
             totalsalary.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             totalsalary.ForeColor = SystemColors.ScrollBar;
             totalsalary.Location = new Point(266, 132);
-            totalsalary.Margin = new Padding(2, 2, 2, 2);
+            totalsalary.Margin = new Padding(2);
             totalsalary.Name = "totalsalary";
             totalsalary.Size = new Size(203, 27);
             totalsalary.TabIndex = 3;
@@ -98,7 +98,7 @@
             // 
             givebonusto_ID.ForeColor = SystemColors.ScrollBar;
             givebonusto_ID.Location = new Point(266, 206);
-            givebonusto_ID.Margin = new Padding(2, 2, 2, 2);
+            givebonusto_ID.Margin = new Padding(2);
             givebonusto_ID.Name = "givebonusto_ID";
             givebonusto_ID.Size = new Size(203, 27);
             givebonusto_ID.TabIndex = 6;
@@ -110,7 +110,7 @@
             give_bonus.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             give_bonus.ForeColor = SystemColors.HotTrack;
             give_bonus.Location = new Point(116, 294);
-            give_bonus.Margin = new Padding(2, 2, 2, 2);
+            give_bonus.Margin = new Padding(2);
             give_bonus.Name = "give_bonus";
             give_bonus.Size = new Size(130, 33);
             give_bonus.TabIndex = 7;
@@ -122,12 +122,13 @@
             back.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             back.ForeColor = SystemColors.HotTrack;
             back.Location = new Point(369, 298);
-            back.Margin = new Padding(2, 2, 2, 2);
+            back.Margin = new Padding(2);
             back.Name = "back";
             back.Size = new Size(119, 29);
             back.TabIndex = 8;
             back.Text = "Back";
             back.UseVisualStyleBackColor = true;
+            back.Click += back_Click;
             // 
             // ManagerDetail
             // 
@@ -142,7 +143,7 @@
             Controls.Add(label2);
             Controls.Add(numofemployees);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "ManagerDetail";
             Text = "Manager";
             ResumeLayout(false);

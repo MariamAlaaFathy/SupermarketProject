@@ -11,11 +11,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SupermarketProject
 {
-    public partial class DairyDetailsForm : Form
+    public partial class DrinksDetailsForm : Form
     {
         Supplier[] suppliers = new Supplier[4];
-        string[] dairyStock;
-        public DairyDetailsForm()
+        string[] drinksStock;
+        public DrinksDetailsForm()
         {
             suppliers[0] = new Supplier("Orchard Delights", "Fruits", 1000);
             suppliers[1] = new Supplier("Veggie Visions", "Vegetables", 1000);
@@ -25,22 +25,22 @@ namespace SupermarketProject
             InitializeComponent();
         }
 
-        private void D2BackButton_Click(object sender, EventArgs e)
+        private void DBackButton_Click(object sender, EventArgs e)
         {
             SupplierForm supplierForm = new SupplierForm();
             supplierForm.Show();
             this.Hide();
         }
 
-        private void D2DoneButton_Click(object sender, EventArgs e)
+        private void DDoneButton_Click(object sender, EventArgs e)
         {
             try
             {
-                dairyStock = [MilkTextBox.Text, YogurtTextBox.Text, IceCreamTextBox.Text, EggsTextBox.Text, CheeseTextBox.Text, ButterTextBox.Text];
+                drinksStock = [WaterTextBox.Text, SWTextBox.Text, JuiceTextBox.Text, SodaTextBox.Text, TeaTextBox.Text, CoffeeTextBox.Text];
                 int totalstock = 0;
                 for (int i = 0; i < 6; i++)
                 {
-                    totalstock += Convert.ToInt32(dairyStock[i]);
+                    totalstock += Convert.ToInt32(drinksStock[i]);
                 }
                 if (totalstock == suppliers[SupplierForm.index].Stock)
                 {

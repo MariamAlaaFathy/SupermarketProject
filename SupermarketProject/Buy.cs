@@ -32,7 +32,9 @@ namespace SupermarketProject
         private void yes_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Thank you for purchasing!","Purchase complete");
-
+            OpeningForm openingForm = new OpeningForm();
+            openingForm.Show();
+            this.Hide();
         }
     }
 }

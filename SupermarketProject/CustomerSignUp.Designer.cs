@@ -52,7 +52,7 @@
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.HotTrack;
-            button1.Location = new Point(142, 551);
+            button1.Location = new Point(505, 558);
             button1.Name = "button1";
             button1.Size = new Size(170, 46);
             button1.TabIndex = 0;
@@ -64,7 +64,7 @@
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.HotTrack;
-            button2.Location = new Point(498, 551);
+            button2.Location = new Point(142, 558);
             button2.Name = "button2";
             button2.Size = new Size(170, 46);
             button2.TabIndex = 1;

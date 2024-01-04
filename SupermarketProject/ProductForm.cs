@@ -52,9 +52,11 @@ namespace SupermarketProject
             this.Hide();
         }
 
-        private void ProductForm_Load(object sender, EventArgs e)
+        private void BackButton_Click(object sender, EventArgs e)
         {
-
+            OpeningForm openingForm = new OpeningForm();
+            openingForm.Show();
+            this.Hide();
         }
     }
 }

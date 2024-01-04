@@ -274,6 +274,7 @@
             FDoneButton.TabIndex = 22;
             FDoneButton.Text = "Done";
             FDoneButton.UseVisualStyleBackColor = true;
+            FDoneButton.Click += FDoneButton_Click;
             // 
             // FruitsDetailsForm
             // 

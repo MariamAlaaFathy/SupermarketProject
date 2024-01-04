@@ -38,10 +38,9 @@
             // 
             SupplierButton.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             SupplierButton.ForeColor = SystemColors.HotTrack;
-            SupplierButton.Location = new Point(168, 141);
-            SupplierButton.Margin = new Padding(4, 4, 4, 4);
+            SupplierButton.Location = new Point(134, 113);
             SupplierButton.Name = "SupplierButton";
-            SupplierButton.Size = new Size(184, 70);
+            SupplierButton.Size = new Size(147, 56);
             SupplierButton.TabIndex = 0;
             SupplierButton.Text = "Supplier";
             SupplierButton.UseVisualStyleBackColor = true;
@@ -51,22 +50,21 @@
             // 
             CustomerButton.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             CustomerButton.ForeColor = SystemColors.HotTrack;
-            CustomerButton.Location = new Point(156, 270);
-            CustomerButton.Margin = new Padding(4, 4, 4, 4);
+            CustomerButton.Location = new Point(125, 216);
             CustomerButton.Name = "CustomerButton";
-            CustomerButton.Size = new Size(206, 80);
+            CustomerButton.Size = new Size(165, 64);
             CustomerButton.TabIndex = 1;
             CustomerButton.Text = "Customer";
             CustomerButton.UseVisualStyleBackColor = true;
+            CustomerButton.Click += CustomerButton_Click;
             // 
             // EmployeeButton
             // 
             EmployeeButton.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             EmployeeButton.ForeColor = SystemColors.HotTrack;
-            EmployeeButton.Location = new Point(156, 412);
-            EmployeeButton.Margin = new Padding(4, 4, 4, 4);
+            EmployeeButton.Location = new Point(125, 330);
             EmployeeButton.Name = "EmployeeButton";
-            EmployeeButton.Size = new Size(204, 78);
+            EmployeeButton.Size = new Size(163, 62);
             EmployeeButton.TabIndex = 2;
             EmployeeButton.Text = "Employee";
             EmployeeButton.UseVisualStyleBackColor = true;
@@ -76,23 +74,21 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 178);
-            label1.Location = new Point(41, 46);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(33, 37);
             label1.Name = "label1";
-            label1.Size = new Size(382, 40);
+            label1.Size = new Size(320, 36);
             label1.TabIndex = 3;
             label1.Text = "Supermarket Account";
             // 
             // OpeningForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(540, 548);
+            ClientSize = new Size(432, 438);
             Controls.Add(label1);
             Controls.Add(EmployeeButton);
             Controls.Add(CustomerButton);
             Controls.Add(SupplierButton);
-            Margin = new Padding(4, 4, 4, 4);
             Name = "OpeningForm";
             Text = "Supermarket";
             ResumeLayout(false);

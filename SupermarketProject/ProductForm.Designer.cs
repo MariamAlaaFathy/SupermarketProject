@@ -33,6 +33,7 @@
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
+            BackButton = new Button();
             SuspendLayout();
             // 
             // button1
@@ -95,11 +96,24 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // BackButton
+            // 
+            BackButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BackButton.ForeColor = SystemColors.HotTrack;
+            BackButton.Location = new Point(278, 423);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(198, 48);
+            BackButton.TabIndex = 5;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
             // ProductForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 501);
+            Controls.Add(BackButton);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -107,7 +121,6 @@
             Controls.Add(button1);
             Name = "ProductForm";
             Text = "ProductForm";
-            Load += ProductForm_Load;
             ResumeLayout(false);
         }
 
@@ -118,5 +131,6 @@
         private Button button3;
         private Button button4;
         private Button button5;
+        private Button BackButton;
     }
 }

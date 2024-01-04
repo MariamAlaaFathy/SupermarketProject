@@ -32,16 +32,17 @@
             ManagerButton = new Button();
             OwnerButton = new Button();
             label1 = new Label();
+            BackButton = new Button();
             SuspendLayout();
             // 
             // CashierButton
             // 
             CashierButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             CashierButton.ForeColor = SystemColors.HotTrack;
-            CashierButton.Location = new Point(300, 114);
+            CashierButton.Location = new Point(240, 91);
             CashierButton.Margin = new Padding(2);
             CashierButton.Name = "CashierButton";
-            CashierButton.Size = new Size(189, 64);
+            CashierButton.Size = new Size(151, 51);
             CashierButton.TabIndex = 0;
             CashierButton.Text = "Cashier";
             CashierButton.UseVisualStyleBackColor = true;
@@ -51,10 +52,10 @@
             // 
             ManagerButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ManagerButton.ForeColor = SystemColors.HotTrack;
-            ManagerButton.Location = new Point(300, 225);
+            ManagerButton.Location = new Point(240, 180);
             ManagerButton.Margin = new Padding(2);
             ManagerButton.Name = "ManagerButton";
-            ManagerButton.Size = new Size(195, 78);
+            ManagerButton.Size = new Size(156, 62);
             ManagerButton.TabIndex = 1;
             ManagerButton.Text = "Manager";
             ManagerButton.UseVisualStyleBackColor = true;
@@ -64,10 +65,10 @@
             // 
             OwnerButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             OwnerButton.ForeColor = SystemColors.HotTrack;
-            OwnerButton.Location = new Point(295, 356);
+            OwnerButton.Location = new Point(236, 285);
             OwnerButton.Margin = new Padding(2);
             OwnerButton.Name = "OwnerButton";
-            OwnerButton.Size = new Size(199, 61);
+            OwnerButton.Size = new Size(159, 49);
             OwnerButton.TabIndex = 2;
             OwnerButton.Text = "Owner";
             OwnerButton.UseVisualStyleBackColor = true;
@@ -77,19 +78,33 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(105, 18);
+            label1.Location = new Point(84, 14);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(571, 65);
+            label1.Size = new Size(476, 54);
             label1.TabIndex = 3;
             label1.Text = "Employee Account Page";
             // 
+            // BackButton
+            // 
+            BackButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BackButton.ForeColor = SystemColors.HotTrack;
+            BackButton.Location = new Point(236, 370);
+            BackButton.Margin = new Padding(2);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(159, 49);
+            BackButton.TabIndex = 4;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
             // EmployeeForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 445);
+            Controls.Add(BackButton);
             Controls.Add(label1);
             Controls.Add(OwnerButton);
             Controls.Add(ManagerButton);
@@ -107,5 +122,6 @@
         private Button ManagerButton;
         private Button OwnerButton;
         private Label label1;
+        private Button BackButton;
     }
 }

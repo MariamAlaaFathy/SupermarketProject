@@ -54,6 +54,7 @@
             D2DoneButton.TabIndex = 80;
             D2DoneButton.Text = "Done";
             D2DoneButton.UseVisualStyleBackColor = true;
+            D2DoneButton.Click += D2DoneButton_Click;
             // 
             // D2BackButton
             // 
@@ -65,6 +66,7 @@
             D2BackButton.TabIndex = 79;
             D2BackButton.Text = "Back";
             D2BackButton.UseVisualStyleBackColor = true;
+            D2BackButton.Click += D2BackButton_Click;
             // 
             // CheeseTextBox
             // 

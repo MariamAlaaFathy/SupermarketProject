@@ -16,5 +16,19 @@ namespace SupermarketProject
         {
             InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
+            this.Hide();
+        }
+
+        private void DoneButton_Click(object sender, EventArgs e)
+        {
+            EmployeeForm empForm = new EmployeeForm();
+            empForm.Show();
+            this.Hide();
+        }
     }
 }

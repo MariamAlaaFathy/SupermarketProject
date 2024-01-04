@@ -112,7 +112,6 @@
             textBox2.Size = new Size(239, 37);
             textBox2.TabIndex = 36;
             textBox2.Text = "Insert the amount ";
-            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 

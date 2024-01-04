@@ -23,7 +23,14 @@ namespace SupermarketProject
         {
             CustomerSignUp customerSignUp = new CustomerSignUp();
             customerSignUp.Show();
-            this.Hide();    
+            this.Hide();
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            OpeningForm openingForm = new OpeningForm();
+            openingForm.Show();
+            this.Hide();
         }
     }
 }
