@@ -40,21 +40,22 @@
             // 
             Manag_ID.AutoSize = true;
             Manag_ID.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Manag_ID.Location = new Point(52, 66);
+            Manag_ID.Location = new Point(65, 82);
             Manag_ID.Margin = new Padding(2, 0, 2, 0);
             Manag_ID.Name = "Manag_ID";
-            Manag_ID.Size = new Size(131, 28);
+            Manag_ID.Size = new Size(158, 32);
             Manag_ID.TabIndex = 0;
             Manag_ID.Text = "Employee ID";
+            Manag_ID.Click += Manag_ID_Click_1;
             // 
             // managerID
             // 
             managerID.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             managerID.ForeColor = SystemColors.ScrollBar;
-            managerID.Location = new Point(206, 66);
+            managerID.Location = new Point(258, 82);
             managerID.Margin = new Padding(2);
             managerID.Name = "managerID";
-            managerID.Size = new Size(262, 34);
+            managerID.Size = new Size(326, 39);
             managerID.TabIndex = 1;
             managerID.Text = "your id";
             managerID.TextAlign = HorizontalAlignment.Center;
@@ -63,10 +64,10 @@
             // 
             Manag_Pass.AutoSize = true;
             Manag_Pass.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Manag_Pass.Location = new Point(71, 184);
+            Manag_Pass.Location = new Point(89, 230);
             Manag_Pass.Margin = new Padding(2, 0, 2, 0);
             Manag_Pass.Name = "Manag_Pass";
-            Manag_Pass.Size = new Size(101, 28);
+            Manag_Pass.Size = new Size(122, 32);
             Manag_Pass.TabIndex = 2;
             Manag_Pass.Text = "Password";
             // 
@@ -76,30 +77,21 @@
             ManagerPassword.ForeColor = SystemColors.ScrollBar;
             ManagerPassword.Location = new Point(258, 222);
             ManagerPassword.Margin = new Padding(2);
-            ManagerPassword.Name = "ManagerPAssword";
+            ManagerPassword.Name = "ManagerPassword";
             ManagerPassword.Size = new Size(326, 39);
             ManagerPassword.TabIndex = 3;
             ManagerPassword.Text = "your password";
             ManagerPassword.TextAlign = HorizontalAlignment.Center;
             ManagerPassword.TextChanged += ManagerPassword_TextChanged;
-            ManagerPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ManagerPassword.ForeColor = SystemColors.ScrollBar;
-            ManagerPassword.Location = new Point(206, 178);
-            ManagerPassword.Margin = new Padding(2);
-            ManagerPassword.Name = "ManagerPassword";
-            ManagerPassword.Size = new Size(262, 34);
-            ManagerPassword.TabIndex = 3;
-            ManagerPassword.Text = "your password";
-            ManagerPassword.TextAlign = HorizontalAlignment.Center;
             // 
             // Login
             // 
             Login.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Login.ForeColor = SystemColors.HotTrack;
-            Login.Location = new Point(311, 284);
+            Login.Location = new Point(389, 355);
             Login.Margin = new Padding(2);
             Login.Name = "Login";
-            Login.Size = new Size(148, 37);
+            Login.Size = new Size(185, 46);
             Login.TabIndex = 5;
             Login.Text = "Login";
             Login.UseVisualStyleBackColor = true;
@@ -109,10 +101,10 @@
             // 
             BackButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             BackButton.ForeColor = SystemColors.HotTrack;
-            BackButton.Location = new Point(71, 284);
+            BackButton.Location = new Point(89, 355);
             BackButton.Margin = new Padding(2);
             BackButton.Name = "BackButton";
-            BackButton.Size = new Size(148, 37);
+            BackButton.Size = new Size(185, 46);
             BackButton.TabIndex = 6;
             BackButton.Text = "Back";
             BackButton.UseVisualStyleBackColor = true;
@@ -120,9 +112,9 @@
             // 
             // ManagerForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(533, 360);
+            ClientSize = new Size(666, 450);
             Controls.Add(BackButton);
             Controls.Add(Login);
             Controls.Add(ManagerPassword);

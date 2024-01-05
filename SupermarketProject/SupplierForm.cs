@@ -40,9 +40,9 @@ namespace SupermarketProject
             DrinksDetailsForm drinks = new DrinksDetailsForm();
             DairyDetailsForm dairy = new DairyDetailsForm();
 
-            for(int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; i++)
             {
-                if(NameTextBox.Text == suppliers[i].Name && TypeTextBox.Text == suppliers[i].TypeOfProduct)
+                if (NameTextBox.Text == suppliers[i].Name && TypeTextBox.Text == suppliers[i].TypeOfProduct)
                 {
                     index = i;
                     newstock = StockTextBox.Text;
@@ -56,6 +56,11 @@ namespace SupermarketProject
                 }
             }
             MessageBox.Show("Wrong Company Name or Type of Product.");
+        }
+
+        private void SupplierForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

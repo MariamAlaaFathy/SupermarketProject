@@ -30,7 +30,7 @@ namespace SupermarketProject
 
             string enteredPassword = ManagerPassword.Text;
 
-            
+
 
 
             for (int i = 0; i < 3; i++)
@@ -59,7 +59,7 @@ namespace SupermarketProject
         private void BackButton_Click(object sender, EventArgs e)
         {
 
-            
+
         }
 
         private void Manag_ID_Click(object sender, EventArgs e)
@@ -73,7 +73,12 @@ namespace SupermarketProject
 
         private void ManagerPassword_TextChanged(object sender, EventArgs e)
         {
-            string Password = ManagerPassword.Text;
+            ManagerPassword.PasswordChar = '*';
+        }
+
+        private void Manag_ID_Click_1(object sender, EventArgs e)
+        {   
+
         }
     }
 }
