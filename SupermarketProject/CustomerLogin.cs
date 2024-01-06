@@ -19,24 +19,19 @@ namespace SupermarketProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ProductForm productForm = new ProductForm();
-            productForm.Show();
-            this.Hide();
-        }
+            for(int i = 0; i < 3; i++)
+            {
+                if(customerID.Text == CustomerSignUp.customers[i].CustomorID.ToString() && Password2.Text == CustomerSignUp.customers[i].Password.ToString())
+                {
+                    MessageBox.Show("Login Successfully!");
+                    ProductForm productForm = new ProductForm();
+                    productForm.Show();
+                    this.Hide();
+                    return;
+                }
+            }
 
-        private void customerID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            MessageBox.Show("Wrong ID or Passowrd");
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -44,6 +39,16 @@ namespace SupermarketProject
             CustomerForm customerForm = new CustomerForm();
             customerForm.Show();
             this.Hide();
+        }
+
+        private void showbutton_Click(object sender, EventArgs e)
+        {
+            Password2.PasswordChar = Password2.PasswordChar == '\0' ? '*' : '\0';
+        }
+
+        private void Password2_TextChanged(object sender, EventArgs e)
+        {
+            Password2.PasswordChar = '*';
         }
     }
 }

@@ -34,6 +34,7 @@
             Manag_Pass = new Label();
             Login = new Button();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // ownerID
@@ -70,6 +71,7 @@
             ownerPassword.TabIndex = 7;
             ownerPassword.Text = "your password";
             ownerPassword.TextAlign = HorizontalAlignment.Center;
+            ownerPassword.TextChanged += ownerPassword_TextChanged;
             // 
             // Manag_Pass
             // 
@@ -108,11 +110,25 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.HotTrack;
+            button2.Location = new Point(495, 206);
+            button2.Margin = new Padding(2);
+            button2.Name = "button2";
+            button2.Size = new Size(55, 37);
+            button2.TabIndex = 10;
+            button2.Text = "show";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // OwnerForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(555, 360);
+            ClientSize = new Size(569, 360);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(Login);
             Controls.Add(ownerPassword);
@@ -134,5 +150,6 @@
         private Label Manag_Pass;
         private Button Login;
         private Button button1;
+        private Button button2;
     }
 }

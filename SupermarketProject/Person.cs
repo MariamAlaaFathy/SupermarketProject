@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    class Person
+    public class Person
     {
         string first_name;
         string last_name;

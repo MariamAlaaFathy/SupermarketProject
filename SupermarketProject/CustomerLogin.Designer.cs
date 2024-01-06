@@ -35,6 +35,7 @@
             Password2 = new TextBox();
             label3 = new Label();
             BackButton = new Button();
+            showbutton = new Button();
             SuspendLayout();
             // 
             // button1
@@ -58,7 +59,6 @@
             customerID.Size = new Size(239, 37);
             customerID.TabIndex = 1;
             customerID.Text = "Your customer ID";
-            customerID.TextChanged += customerID_TextChanged;
             // 
             // label1
             // 
@@ -69,7 +69,6 @@
             label1.Size = new Size(44, 38);
             label1.TabIndex = 2;
             label1.Text = "ID";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -90,6 +89,7 @@
             Password2.Size = new Size(239, 37);
             Password2.TabIndex = 4;
             Password2.Text = "your password";
+            Password2.TextChanged += Password2_TextChanged;
             // 
             // label3
             // 
@@ -100,7 +100,6 @@
             label3.Size = new Size(272, 49);
             label3.TabIndex = 5;
             label3.Text = "Customer Login";
-            label3.Click += label3_Click;
             // 
             // BackButton
             // 
@@ -114,11 +113,25 @@
             BackButton.UseVisualStyleBackColor = true;
             BackButton.Click += BackButton_Click;
             // 
+            // showbutton
+            // 
+            showbutton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 178);
+            showbutton.ForeColor = SystemColors.HotTrack;
+            showbutton.Location = new Point(633, 227);
+            showbutton.Margin = new Padding(2);
+            showbutton.Name = "showbutton";
+            showbutton.Size = new Size(89, 37);
+            showbutton.TabIndex = 20;
+            showbutton.Text = "show";
+            showbutton.UseVisualStyleBackColor = true;
+            showbutton.Click += showbutton_Click;
+            // 
             // CustomerLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(showbutton);
             Controls.Add(BackButton);
             Controls.Add(label3);
             Controls.Add(Password2);
@@ -141,5 +154,6 @@
         private TextBox Password2;
         private Label label3;
         private Button BackButton;
+        private Button showbutton;
     }
 }

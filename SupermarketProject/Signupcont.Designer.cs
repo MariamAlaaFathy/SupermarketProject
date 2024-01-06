@@ -37,10 +37,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(279, 160);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(223, 128);
             label1.Name = "label1";
-            label1.Size = new Size(398, 45);
+            label1.Size = new Size(338, 38);
             label1.TabIndex = 0;
             label1.Text = "This is your Customer ID";
             // 
@@ -48,22 +47,19 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(410, 234);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(328, 187);
             label2.Name = "label2";
-            label2.Size = new Size(127, 30);
+            label2.Size = new Size(124, 25);
             label2.TabIndex = 1;
-            label2.Text = "customeriD";
-            label2.Click += label2_Click;
+            label2.Text = "Save Your ID: ";
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.HotTrack;
-            button1.Location = new Point(404, 296);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Location = new Point(323, 237);
             button1.Name = "button1";
-            button1.Size = new Size(152, 45);
+            button1.Size = new Size(122, 36);
             button1.TabIndex = 2;
             button1.Text = "Done";
             button1.UseVisualStyleBackColor = true;
@@ -71,13 +67,12 @@
             // 
             // Signupcont
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 562);
+            ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
             Name = "Signupcont";
             Text = "Signupcont";
             ResumeLayout(false);

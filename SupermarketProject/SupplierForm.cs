@@ -57,10 +57,5 @@ namespace SupermarketProject
             }
             MessageBox.Show("Wrong Company Name or Type of Product.");
         }
-
-        private void SupplierForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

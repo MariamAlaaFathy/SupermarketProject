@@ -36,5 +36,15 @@
             employeeForm.Show();
             this.Hide();
         }
+
+        private void ownerPassword_TextChanged(object sender, EventArgs e)
+        {
+            ownerPassword.PasswordChar = '*';
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ownerPassword.PasswordChar = ownerPassword.PasswordChar == '\0' ? '*' : '\0';
+        }
     }
 }

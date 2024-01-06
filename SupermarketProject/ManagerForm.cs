@@ -58,8 +58,9 @@ namespace SupermarketProject
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-
-
+            EmployeeForm employeeForm = new EmployeeForm();
+            employeeForm.Show();
+            this.Hide();
         }
 
         private void Manag_ID_Click(object sender, EventArgs e)
@@ -77,8 +78,13 @@ namespace SupermarketProject
         }
 
         private void Manag_ID_Click_1(object sender, EventArgs e)
-        {   
+        {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ManagerPassword.PasswordChar = ManagerPassword.PasswordChar == '\0' ? '*' : '\0';
         }
     }
 }

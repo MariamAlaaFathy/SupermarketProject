@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic.ApplicationServices;
+using SupermarketProject;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,19 +12,20 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
+
+
 namespace SupermarketProject
 {
     public partial class CustomerSignUp : Form
     {
-        private List<Customer> customers = new List<Customer>();
 
-
+        static Customer customer1 = new Customer("Shahd", "Alaa", 2, "shahdalaa@gmail.com", "0122", "elekbal", "shahd1234");
+        static Customer customer2 = new Customer("Ahmed", "Abdelrahman", 2, "ahmed@gmail.com", "01232", "elekbaql", "ahmed123");
+        static Customer customer3 = new Customer("mohamed", "ayman", 2, "ayman2@gmail.com", "01222", "elekbal", "mohamed123");
+        public static List<Customer> customers = [customer1, customer2, customer3];
 
         public CustomerSignUp()
         {
-            customers.Add(new Customer("hh", "mohamed", "ayman", 2, "ayman@gmail.com", "0122", "elekbal"));
-            customers.Add(new Customer("hh", "moh", "aymn", 2, "ayman1@gmail.com", "01232", "elekbaql"));
-            customers.Add(new Customer("hh", "mohameds", "aymans", 2, "ayman2@gmail.com", "01222", "elekbal"));
             InitializeComponent();
         }
 
@@ -34,63 +36,23 @@ namespace SupermarketProject
             this.Hide();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Lastname_TextChanged(object sender, EventArgs e)
         {
             string lastname = Lastname.Text;
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Password_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CustomerSignUp_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = Email.Text;
+            string email = Email.Text;
 
-            if (IsUsernameTaken(username))
+            if (IsUsernameTaken(email))
             {
-                MessageBox.Show("Username is already taken. Please choose another username.");
+                MessageBox.Show("Email is already taken. Please use another email.");
                 return;
             }
-            Customer newCustomer = new Customer("hh", "mohamed", "ayman", 5, "ayman@gmail.com", "0122", "elekbal")
+            Customer newCustomer = new Customer("mohamed", "ayman", 5, "ayman@gmail.com", "0122", "elekbal", "hh")
             {
-                Email = username,
+                Email = email,
 
                 // Add other user properties as needed
             };

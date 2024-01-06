@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    class Customer:Person
+    public class Customer:Person
     {
-        int customerID = 0;
+        public static int customerNo = 0;
+        int customerID;
         string password;
-        double receipt; 
-        public int CustomerID
+        double receipt;
+
+        public int CustomorID
         {
-            get { 
+            get
+            {
                 return customerID;
             }
         }
+
         public string Password
         {
             get { 
@@ -34,10 +38,11 @@ namespace SupermarketProject
                 receipt = value;
             }
         }
-        public Customer(string password, string firstname, string lastname, int age, string email, string phone_number,string address) : base( firstname, lastname, age,  email,  phone_number,address)
+        public Customer(string firstname, string lastname, int age, string email, string phone_number,string address, string password) : base( firstname, lastname, age,  email,  phone_number,address)
         {
             this.password = password;
-            customerID++;
+            customerNo++;
+            customerID = customerNo;
             
         }
 

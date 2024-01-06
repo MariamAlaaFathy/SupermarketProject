@@ -149,7 +149,6 @@
             Margin = new Padding(4, 4, 4, 4);
             Name = "SupplierForm";
             Text = "Supplier";
-            Load += SupplierForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
