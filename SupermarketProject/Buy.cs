@@ -15,6 +15,7 @@ namespace SupermarketProject
         public Buy()
         {
             InitializeComponent();
+            label3.Text = Convert.ToString(ProductForm.cart);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -24,6 +25,7 @@ namespace SupermarketProject
 
         private void no_Click(object sender, EventArgs e)
         {
+            ProductForm.cart = 0;
             ProductForm productForm = new ProductForm();
             productForm.Show();
             this.Hide();

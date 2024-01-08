@@ -23,5 +23,18 @@ namespace SupermarketProject
             managerForm.Show();
             this.Hide();
         }
+
+        private void give_bonus_Click(object sender, EventArgs e)
+        {
+            double sales = Convert.ToDouble(totalsales.Text);
+            if(sales > 1000)
+            {
+                Manager.GiveBonus(givebonusto_ID.Text, CashierForm.cashiers);
+                MessageBox.Show("Bonus was given to employee " + givebonusto_ID.Text);
+                return;
+            }
+
+            MessageBox.Show("Cant't give bonus. Sales are low");
+        }
     }
 }

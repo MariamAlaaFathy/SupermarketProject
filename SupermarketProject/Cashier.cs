@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    class Cashier : Employee
+    public class Cashier : Employee
     {
         int NoOfCostumers;
 

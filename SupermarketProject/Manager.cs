@@ -9,12 +9,12 @@ namespace SupermarketProject
     class Manager : Employee
     {
         public static double sales;
-        public static double totalSalaries;
-        double bonus;
+        public static double totalSalaries = 0;
+        static double bonus;
 
         public Manager(string firstname, string lastname, int age, string email, string phone_number, string address, string emID, double salary, string job_title, string employee_password) : base(firstname, lastname, age, email,phone_number, address, emID, salary, job_title, employee_password)
         {
-
+            totalSalaries += Employee.numberOfEmployees * salary;
         }
 
         public double Bonus
@@ -22,7 +22,7 @@ namespace SupermarketProject
             set { bonus = value; }
             get { return bonus; }
         }
-        public void GiveBonus(string id, Employee[] employees)
+        public static void GiveBonus(string id, Employee[] employees)
         {
             for(int i = 0; i < employees.Length; i++)
             {

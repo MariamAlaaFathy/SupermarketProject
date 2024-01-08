@@ -11,7 +11,7 @@ namespace SupermarketProject
         public static int customerNo = 0;
         int customerID;
         string password;
-        double receipt;
+        double receipt = 0;
 
         public int CustomorID
         {
@@ -33,10 +33,6 @@ namespace SupermarketProject
             {
                     return receipt;
             }
-            set
-            {
-                receipt = value;
-            }
         }
         public Customer(string firstname, string lastname, int age, string email, string phone_number,string address, string password) : base( firstname, lastname, age,  email,  phone_number,address)
         {
@@ -46,6 +42,10 @@ namespace SupermarketProject
             
         }
 
-        
+        public double CalculateReceipt(double amount, double price)
+        {
+            receipt += amount*price;
+            return receipt;
+        }
     }
 }

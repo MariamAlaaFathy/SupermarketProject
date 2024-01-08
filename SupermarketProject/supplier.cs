@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SupermarketProject
 {
-    class Supplier
+    public class Supplier
     {
         string? name;
         string? typeofproduct;

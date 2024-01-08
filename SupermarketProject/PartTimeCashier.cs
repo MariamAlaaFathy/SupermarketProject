@@ -19,8 +19,8 @@ namespace SupermarketProject
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            CustomerForm customerForm = new CustomerForm();
-            customerForm.Show();
+            CashierForm cashierForm = new CashierForm();
+            cashierForm.Show();
             this.Hide();
         }
 

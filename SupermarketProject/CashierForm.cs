@@ -12,7 +12,7 @@ namespace SupermarketProject
 {
     public partial class CashierForm : Form
     {
-        Cashier[] cashiers = new Cashier[4];
+        public static Cashier[] cashiers = new Cashier[4];
         public CashierForm()
         {
             cashiers[0] = new Cashier("Youmna", "Yasser", 20, "youmnayasser@gmail.com", "01101011865", "alex", "f1", 5000, "Fulltime", "youmna123");

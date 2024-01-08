@@ -14,9 +14,9 @@ namespace SupermarketProject
     public partial class SupplierForm : Form
     {
 
-        Supplier[] suppliers = new Supplier[4];
+        public static Supplier[] suppliers = new Supplier[4];
         public static int index;
-        public static string newstock;
+        public static string? newstock;
         public SupplierForm()
         {
             suppliers[0] = new Supplier("Orchard Delights", "Fruits", 1000);

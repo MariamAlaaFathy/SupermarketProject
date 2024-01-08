@@ -10,13 +10,13 @@ using System.Xml.Linq;
 
 namespace SupermarketProject
 {
-    class Employee:Person
+    public class Employee:Person
     {
         string employeeID;
         double salary;
         string job_title;
         string employee_password;
-        static int numberOfEmployees=0;
+        public static int numberOfEmployees=0;
 
         public string EmployeePassword
         {

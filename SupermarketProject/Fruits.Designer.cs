@@ -373,6 +373,7 @@
             button1.TabIndex = 28;
             button1.Text = "Add to cart";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 

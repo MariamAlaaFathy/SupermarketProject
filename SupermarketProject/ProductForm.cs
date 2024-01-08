@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace SupermarketProject
 {
     public partial class ProductForm : Form
     {
+        public static double cart = 0;
         public ProductForm()
         {
             InitializeComponent();
