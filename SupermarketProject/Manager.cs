@@ -22,13 +22,13 @@ namespace SupermarketProject
             set { bonus = value; }
             get { return bonus; }
         }
-        public static void GiveBonus(string id, Employee[] employees)
+        public void GiveBonus(string id, Cashier[] cashiers)
         {
-            for(int i = 0; i < employees.Length; i++)
+            for(int i = 0; i < cashiers.Length; i++)
             {
-                if(id == employees[i].EmployeeID)
+                if(id == cashiers[i].EmployeeID)
                 {
-                    employees[i].Salary += bonus;
+                    cashiers[i].Salary += bonus;
                     break;
                 }
             }
