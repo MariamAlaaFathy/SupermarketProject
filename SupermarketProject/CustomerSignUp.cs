@@ -124,6 +124,9 @@ namespace SupermarketProject
                     }
 
                     MessageBox.Show("Account created successfully!");
+                    Signupcont signupcont = new Signupcont();
+                    signupcont.Show();
+                    this.Hide(); 
                 }
             }
             catch (Exception ex)
