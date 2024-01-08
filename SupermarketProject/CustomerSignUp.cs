@@ -100,6 +100,14 @@ namespace SupermarketProject
                 using (SqlConnection con = new SqlConnection("Data Source=shahd;Initial Catalog=customerform;Integrated Security=True;"))
                 {
                     con.Open();
+                   /* int customerCount;
+                    using (SqlCommand countCmd = new SqlCommand("SELECT COUNT(*) FROM [dbo].[signup]", con))
+                    {
+                        customerCount = (int)countCmd.ExecuteScalar();
+                    }
+
+                    // Generate a customer ID based on the count
+                    int newCustomerId = customerCount + 1; */
 
                     using (SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[signup]
                         ([firstname]
