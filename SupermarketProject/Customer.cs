@@ -41,11 +41,5 @@ namespace SupermarketProject
             customerID = customerNo;
             
         }
-
-        public double CalculateReceipt(double amount, double price)
-        {
-            receipt += amount*price;
-            return receipt;
-        }
     }
 }
