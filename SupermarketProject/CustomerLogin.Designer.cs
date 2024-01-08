@@ -61,6 +61,7 @@
             customerID.Size = new Size(298, 45);
             customerID.TabIndex = 1;
             customerID.Text = "enter your email";
+            customerID.TextChanged += customerID_TextChanged;
             // 
             // label1
             // 

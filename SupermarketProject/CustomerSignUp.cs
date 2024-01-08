@@ -21,10 +21,10 @@ namespace SupermarketProject
     public partial class CustomerSignUp : Form
     {
 
-       /* static Customer customer1 = new Customer("Shahd", "Alaa", 2, "shahdalaa@gmail.com", "0122", "elekbal", "shahd1234");
-        static Customer customer2 = new Customer("Ahmed", "Abdelrahman", 2, "ahmed@gmail.com", "01232", "elekbaql", "ahmed123");
-        static Customer customer3 = new Customer("mohamed", "ayman", 2, "ayman2@gmail.com", "01222", "elekbal", "mohamed123");
-        public static List<Customer> customers = [customer1, customer2, customer3]; */
+        /* static Customer customer1 = new Customer("Shahd", "Alaa", 2, "shahdalaa@gmail.com", "0122", "elekbal", "shahd1234");
+         static Customer customer2 = new Customer("Ahmed", "Abdelrahman", 2, "ahmed@gmail.com", "01232", "elekbaql", "ahmed123");
+         static Customer customer3 = new Customer("mohamed", "ayman", 2, "ayman2@gmail.com", "01222", "elekbal", "mohamed123");
+         public static List<Customer> customers = [customer1, customer2, customer3]; */
 
         public CustomerSignUp()
         {
@@ -137,33 +137,38 @@ namespace SupermarketProject
         private void Firstname_TextChanged(object sender, EventArgs e)
         {
             string firstname = Firstname.Text;
+            button1.Enabled = !string.IsNullOrEmpty(Firstname.Text);
         }
 
         private void Email_TextChanged(object sender, EventArgs e)
         {
             string email = Email.Text;
+            button1.Enabled = !string.IsNullOrEmpty(Email.Text);
         }
 
         private void Age_TextChanged(object sender, EventArgs e)
         {
             string age = Age.Text;
+            button1.Enabled = !string.IsNullOrEmpty(Age.Text);
         }
 
         private void Address_TextChanged(object sender, EventArgs e)
         {
             string address = Address.Text;
+            button1.Enabled = !string.IsNullOrEmpty(Address.Text);
         }
 
         private void Mobile_TextChanged(object sender, EventArgs e)
         {
             string mobile = Mobile.Text;
+            button1.Enabled = !string.IsNullOrEmpty(Mobile.Text);
         }
-      /* private bool IsUsernameTaken(string email)
-        {
-            // Check if the username already exists in the list
+        /* private bool IsUsernameTaken(string email)
+          {
+              // Check if the username already exists in the list
 
-            return customers.Any(c => c.Email == email);
-        } */
+              return customers.Any(c => c.Email == email);
+          } */
 
         private void showbutton_Click(object sender, EventArgs e)
         {
@@ -173,6 +178,7 @@ namespace SupermarketProject
         private void Password_TextChanged_1(object sender, EventArgs e)
         {
             Password.PasswordChar = '*';
+            button1.Enabled = !string.IsNullOrEmpty(Password.Text);
         }
         private bool IsUsernameTaken(string email)
         {
@@ -199,5 +205,10 @@ namespace SupermarketProject
             }
         }
 
+        private void Lastname_TextChanged_1(object sender, EventArgs e)
+        {
+            string lastname = Lastname.Text;
+            button1.Enabled = !string.IsNullOrEmpty(Lastname.Text);
+        }
     }
 }

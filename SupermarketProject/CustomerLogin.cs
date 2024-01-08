@@ -84,6 +84,19 @@ namespace SupermarketProject
         private void Password2_TextChanged(object sender, EventArgs e)
         {
             Password2.PasswordChar = '*';
+
+           // if (Password2.Text == null)
+           // {
+                button1.Enabled = !string.IsNullOrEmpty(Password2.Text);
+            //}
+        }
+
+        private void customerID_TextChanged(object sender, EventArgs e)
+        {
+           // if (customerID.Text ==null)
+            //{
+               button1.Enabled = !string.IsNullOrEmpty(customerID.Text);
+           // }
         }
     }
 }
